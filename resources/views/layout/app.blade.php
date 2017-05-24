@@ -52,7 +52,7 @@
                         <div class="top_bar_left clearfix">
                             <!-- Logo-->
                             <div class="logo">
-                                <a id="logo" href="{{url('/')}}" title="A2B"><img  src="{{asset('a2b.png')}}" alt="A2B Partners in Growth" /> </a>
+                                <a id="logo" class="logo" href="{{url('/')}}" title="A2B"><img  src="{{asset('a2b.png')}}" alt="A2B Partners in Growth" /> </a>
                             </div>
                             <!-- Main menu-->
                             <div class="menu_wrapper">
@@ -96,29 +96,20 @@
                 </div>
             </div>
             <!-- Revolution slider area-->
-            <div class="mfn-main-slider">
-                <div id="rev_slider_1_2_wrapper" class="rev_slider_wrapper fullwidthbanner-container sections_style_1">
-                    <div id="rev_slider_1_2" class="rev_slider fullwidthabanner tp-overflow-hidden" data-version="5.0.4.1">
-                        <ul>
-                            <li data-index="rs-1" data-transition="fade" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
-                                <img src="{{asset('university/images/service.jpg')}}" alt="" width="1920" height="800" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                                <div class="tp-caption university_large_white tp-resizeme" id="slide-1-layer-1" data-x="right" data-hoffset="101" data-y="120" data-width="auto" data-height="auto" data-transform_idle="" data-transform_in="y:top;s:900;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 5; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 54px; line-height: 59px; font-weight: 300; color: rgba(255, 255, 255, 1.00);border-color:rgba(255, 255, 255, 1.00);">
-                                    Boost your knowledge
-                                    <br> and gain career
-                                </div>
-                                <div class="tp-caption university_small_white tp-resizeme" id="slide-1-layer-2" data-x="right" data-hoffset="157" data-y="280" data-width="auto" data-height="auto" data-transform_idle="" data-transform_in="opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 22px; line-height: 30px; font-weight: 300; color: rgba(255, 255, 255, 1.00);border-color:rgba(255, 255, 255, 1.00);">
-                                    Choose one of our homepages
-                                    <br> and start producing best quality webpages.
-                                    <br> Don't forget to rate and comment
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-1-layer-3" data-x="right" data-hoffset="132" data-y="410" data-width="auto" data-height="auto" data-transform_idle="" data-transform_in="y:50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="2300" data-responsive_offset="on" style="z-index: 7;"><img src="{{asset('university/images/home_university_slider_apply.png')}}" alt="" width="479" height="75" data-no-retina>
-                                </div>
-                            </li>
-                        </ul>
-                        <div class="tp-bannertimer tp-bottom flv_viz_hid"></div>
+            <section class="masterBanner-section home-banner-primary" style=" background-image: url(university/images/service.jpg); background-size: cover;">
+                <div class="masterBanner-inner">
+                    <div class="masterBanner-content">
+                        <img style="width: 130px; display: block; margin-left: auto; margin-right: auto;" src="university/images/icons/Lightning-Bolt.png" alt="Lightning-Bolt" title="Lightning-Bolt.png" width="320">
+                        <h1 class="masterBanner-title">
+                            Africa's Endless Potential
+                        </h1>
+                        <p style="font-size: 20px; "><strong>We are creating opportunities for the dynamic and enterprising African spirit</strong></p>
+                        <div style="text-align: center; clear: both; padding-top:15px; border-top: 1px solid rgba(0,0,0,.07);">
+                            <a class="button button_yellow button_js" href=""><span class="button_label">Apply Today</span></a>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </header>
         @yield('header')
     </div>

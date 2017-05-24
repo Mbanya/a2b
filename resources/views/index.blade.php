@@ -326,7 +326,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="post-title">
-                                                            <h2 class="entry-title"><a href="university/article-3.html">Pellentes malesuada fames</a></h2>
+                                                            <h2 class="entry-title"><a href="university/article-3.html">What is an Internship?</a></h2>
                                                         </div>
                                                         <div class="post-excerpt">
                                                             Aenean ligula nunc, accumsan quam, lobortis fringilla, massa. Maecenas pellentesque dolor.
@@ -377,7 +377,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="post-title">
-                                                            <h2 class="entry-title"><a href="university/article-4.html">Aenean ligula mol stie viver</a></h2>
+                                                            <h2 class="entry-title"><a href="university/article-4.html">Why You Should do an Internship?</a></h2>
                                                         </div>
                                                         <div class="post-excerpt">
                                                             Duis porttitor vel, eros. Mauris nec adipiscing elit. Nam sed porta eget, neque. Pellentesque fringilla neque quis blandit venenatis.
@@ -407,7 +407,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="post-desc-wrapper">
+                                                <div class="post-desc-wrapper">a
                                                     <div class="post-desc">
                                                         <div class="post-meta clearfix">
                                                             <div class="author-date">
@@ -425,7 +425,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="post-title">
-                                                            <h2 class="entry-title"><a href="content/university/article-1.html">Vitae adipiscing turpis aenean</a></h2>
+                                                            <h2 class="entry-title"><a href="content/university/article-1.html">VShould I Intern as a College Freshman?</a></h2>
                                                         </div>
                                                         <div class="post-excerpt">
                                                             Lorem ipsum dolor sit amet neque vitae mauris. Etiam malesuada ultricies. Nullam ut nunc odio eget volutpat a, rutrum ac, magna. Nulla facilisi. Nullam justo. Sed [&hellip;]
@@ -452,9 +452,14 @@
                                 <!-- One Second (1/2) Column -->
                                 <div class="column one-second column_column">
                                     <div class="column_attr ">
-                                        <h2 style="margin-bottom: 40px; margin-top: 40px;">About Be University</h2>
+                                        <h2 style="margin-bottom: 40px; margin-top: 40px;">The Importance Of Internships </h2>
                                         <p style="margin-bottom: 40px;">
-                                            Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum.
+                                           Relevant work experience is more important to employers than stromg academic performance. Statistics
+                                           state that 63% of college graduates have completed at-least one internship and 66% of employers believe
+                                           interview performance and relevant work experience are the most important factors in their hiring decisions.<br>
+                                           85% of employers say hiring interns was a positive experience while 86% of students polled say that thier internship
+                                            experience was a positive one.
+
                                         </p>
                                         <a class="button button_grey button_js" href="#"><span class="button_label">Apply now</span></a>
                                     </div>
@@ -462,61 +467,7 @@
                                 <!-- One Second (1/2) Column -->
                                 <div class="column one-second column_column">
                                     <div class="column_attr ">
-                                        <a class="prettyphoto" href="http://vimeo.com/20206755"> <img class="scale-with-grid" src="university/images/358_7190.jpg" alt=""> </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="section" style="padding-top:80px; padding-bottom:40px; background-color:#f4efec">
-                        <div class="section_wrapper clearfix">
-                            <div class="items_group clearfix">
-                                <!-- One Fourth (1/4) Column -->
-                                <div class="column one-fourth column_column">
-                                    <div class="column_attr ">
-                                        <h2 style="margin-bottom: 25px;">Dean`s office</h2>
-                                        <p class="big" style="color: #373632;">
-                                            Lorem ipsum dolor sit amet tellus tinci dunt quis, lacinia quam at consectetuer nisl. Curabitur nec lectus bibendum.
-                                        </p>
-                                        <p>
-                                            Elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Suspendisse a pellentesque dui, non felis. Phasellus fermentum in, dolor.
-                                        </p>
-                                    </div>
-                                </div>
-                                <!-- One Fourth (1/4) Column -->
-                                <div class="column one-fourth column_column">
-                                    <div class="column_attr ">
-                                        <h2 style="margin-bottom: 25px;">Students</h2>
-                                        <p class="big" style="color: #373632;">
-                                            Aliquam ultricies ante. Maecenas feugiat tortor pede id tortor venenatis in, ornare lacus at interdum augue.
-                                        </p>
-                                        <p>
-                                            Vivamus urna sem ut justo facilisis enim. Donec in velit eleifend et, faucibus massa dui tellus, condimentum ante. Vestibulum tortor lacus malesuada fames ac ornare lectus dapibus vitae, dapibus quam.
-                                        </p>
-                                    </div>
-                                </div>
-                                <!-- One Fourth (1/4) Column -->
-                                <div class="column one-fourth column_column">
-                                    <div class="column_attr ">
-                                        <h2 style="margin-bottom: 25px;">Research centre</h2>
-                                        <p class="big" style="color: #373632;">
-                                            Phase llus quis turpis. Lorem ipsum sit amet ante. Proin urna. Nunc molestie a, sodales nulla. Suspendisse potenti.
-                                        </p>
-                                        <p>
-                                            Duis vulputate et, tristique dapibus, ultricies tortor et enim. Quisque vitae metus facilisis libero. Pellentesque nibh vel nulla. Mauris ac tempor auctor, urna magna lectus, tincidunt lorem. Phasellus a elit.
-                                        </p>
-                                    </div>
-                                </div>
-                                <!-- One Fourth (1/4) Column -->
-                                <div class="column one-fourth column_column">
-                                    <div class="column_attr ">
-                                        <h2 style="margin-bottom: 25px;">Library</h2>
-                                        <p class="big" style="color: #373632;">
-                                            Cras a posuere in, suscipit quis, odio. Nunc arcu vitae metus a arcu. Etiam vel risus. Etiam hendrerit risus. Vivamus sit.
-                                        </p>
-                                        <p>
-                                            Nam rhoncus, dolor sit amet dolor. In lacus scelerisque tincidunt. Pellentesque ante. Vestibulum ante id dui. Aenean ac nibh lacus, congue augue eget est. Vivamus urna sem ut justo facilisis enim. Donec in velit.
-                                        </p>
+                                       <img class="scale-with-grid" src="{{asset('university/images/358_7190.jpg')}}" alt="">
                                     </div>
                                 </div>
                             </div>
