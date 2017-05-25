@@ -64,8 +64,27 @@
                                             <a href="{{url('/')}}"><span>Home</span></a>
                                         </li>
                                         <li>
-                                            <a href="{{route('about')}}"><span>About Us</span></a>
+                                            <a href="#departments"><span>Services</span></a>
                                         </li>
+                                        <li>
+                                            <a disabled><span>Programmes</span></a>
+                                            <ul class="sub-menu">
+                                            <li>
+                                                <a href="{{route('featured')}}"><span>Featured Internships</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="{{route('special')}}"><span>Special Programmes Internships</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="{{route('ambassador')}}"><span>Student Ambassador Internships</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="{{route('platinum')}}"><span>Platinum Plus Internships</span></a>
+                                            </li>
+                                            </ul>
+
+                                        </li>
+
                                         <li>
                                             <a href="{{url('')}}"><span>Apply</span></a>
                                         </li>
@@ -96,7 +115,7 @@
                 </div>
             </div>
             <!-- Revolution slider area-->
-            <section class="masterBanner-section home-banner-primary" style=" background-image: url(university/images/service.jpg); background-size: cover;">
+            <section class="masterBanner-section home-banner-primary" style=" background-image: url(university/images/service.jpg); background-size: cover; background-position: center;">
                 <div class="masterBanner-inner">
                     <div class="masterBanner-content">
                         <img style="width: 130px; display: block; margin-left: auto; margin-right: auto;" src="university/images/icons/Lightning-Bolt.png" alt="Lightning-Bolt" title="Lightning-Bolt.png" width="320">

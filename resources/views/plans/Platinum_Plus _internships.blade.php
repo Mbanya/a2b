@@ -22,8 +22,13 @@
                                             to prospective employers post the internship.
                                         </h3>
                                             <hr class="no_line hrmargin_b_30" />
-                                        <a class="content_link " href="#"><span class="icon"><i class="icon-picture"></i></span><span class="title">Explore</span></a><a class="content_link " href="#"><span class="icon"><i class="icon-calendar"></i></span><span class="title">Learn</span></a><a class="content_link " href="#"><span class="icon"><i class="icon-users"></i></span><span class="title">Network</span></a>
-                                    </div>
+                                        <hr class="no_line hrmargin_b_30" />
+                                        <h1 style="font-size: 35px;">How we do it</h1>
+                                        <a class="content_link " href="#"><span class="icon"><i class="icon-search-line"></i></span><span class="title">Screen</span></a>
+                                        <a class="content_link " href="#"><span class="icon"><i class="icon-users"></i></span><span class="title">Match</span></a>
+                                        <a class="content_link " href="#"><span class="icon"><i class="icon-user-add"></i></span><span class="title">Assign</span></a>
+                                        <a class="content_link " href="#"><span class="icon"><i class="icon-compass"></i></span><span class="title">Mentor</span></a>
+                                        <a class="content_link " href="#"><span class="icon"><i class="icon-chart-area"></i></span><span class="title">Track</span></a>                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -43,31 +48,6 @@
                                     <div class="column_attr ">
                                         <!-- One Second (1/2) Column -->
                                         <div class="column one">
-                                            <h2>How we do it?</h2>
-                                            <p class="big">
-                                                A2B pre-screen all interns who indicate interest for Platinum Plus Internships.
-                                            </p>
-                                            <p>
-                                                Depending on Interns’ preferences and availability they are matched
-                                                with available initiatives and projects under PPI package.
-                                            </p>
-
-                                            <ul class="list_check">
-                                                <li>
-                                                    	Platinum Plus Interns are privileged to have variety of training and coaching
-                                                        to become solid professionals and leaders in the field of interest.
-                                                </li>
-                                                <li>
-                                                    Getting started is easy - all you need to send us are your college majors, preferred location and your areas of interest.
-                                                        Next you pay the full fees as confirmation of your interest. To understand in detail the pricing of A2B packages <a href="" target="_blank">read more here</a>.
-                                                </li>
-                                                <li>
-                                                    When you accept your program invitation, we finalize your contracting documentation accordingly and you are ready to get started.
-
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="column one">
                                             <h2>What can you expect during Platinum Plus Internships and beyond?</h2>
                                             <p class="big">
                                                 ­	Intern Professional Development: you automatically qualify
@@ -86,26 +66,23 @@
                                                     ranging from tips/advice on remaining on course to achieve your dream career
                                                     upon completing the program with us.
                                             </p>
-
-                                            <div class="flv_align_right">
-                                                <img alt="" src="{{asset('university/images/home_business_signature.png')}}">
-                                            </div>
                                         </div>
                                         <div class="column one">
                                             <h2>Qualifications & competencies</h2>
                                             <p>
-                                                Currently studying or graduate with relevant degree with reputable University.<br>
-                                                Featured internship positions require enthusiasm, creativity, innovation, strong interpersonal,
-                                                diplomatic, problem solving, organizational and leadership skills.<br>
-                                                Candidates must possess analytical skills, exhibit signs of integrity
-                                                and reliability in performance, as well as respect for diversity.<br>
-                                                Should be able to work in a multi-cultural, multi-ethnic environment and
-                                                to maintain effective working relations with people of different national and cultural backgrounds.<br>
-                                                The ideal candidates should demonstrate the ability to articulate clear goals,
-                                                identify priorities, foresee risks, monitor and adjust plans and actions as necessary.<br>
-                                                Above all, these positions require the ability to listen and communicate
-                                                clearly and effectively either in writing or speaking.
-                                            </p>
+                                            <ul>
+                                                <li>Currently studying or graduate with relevant degree with reputable University.</li>
+                                                <li> Featured internship positions require enthusiasm, creativity, innovation, strong interpersonal,
+                                                diplomatic, problem solving, organizational and leadership skills.</li>
+                                                <li>Candidates must possess analytical skills, exhibit signs of integrity
+                                                and reliability in performance, as well as respect for diversity.</li>
+                                                <li>Should be able to work in a multi-cultural, multi-ethnic environment and
+                                                to maintain effective working relations with people of different national and cultural backgrounds.</li>
+                                                <li>The ideal candidates should demonstrate the ability to articulate clear goals,
+                                                identify priorities, foresee risks, monitor and adjust plans and actions as necessary.</li>
+                                                <li>Above all, these positions require the ability to listen and communicate
+                                                clearly and effectively either in writing or speaking.</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -171,108 +148,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="items_group clearfix" style="padding-top: 10%">
-                        <!-- One full width row-->
-                        <div class="column one column_column">
-                            <div class="column_attr ">
-                                <h2 class="flv_style_4" style="text-align: center">Qualifications & competencies</h2>
-                            </div>
-                        </div>
-                        <!-- Page devider -->
-                        <!-- One full width row-->
-                        <div class="column one column_divider">
-                            <hr class="no_line flv_margin_40">
-                        </div>
-                        <!-- One Third (1/3) Column -->
-                        <div class="column one-third column_list" >
-                            <div class="list_item lists_4 clearfix">
-                                <div class="circle">
-                                    1
-                                </div>
-                                <div class="list_right">
-                                    <div class="desc">
-                                        ­	Currently studying or graduate with relevant degree with reputable University.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- One Third (1/3) Column -->
-                        <div class="column one-third column_list">
-                            <div class="list_item lists_4 clearfix">
-                                <div class="circle">
-                                    2
-                                </div>
-                                <div class="list_right">
-                                    <div class="desc">
-                                        ­	Platinum Plus internship positions require enthusiasm, creativity,
-                                            innovation, strong interpersonal, diplomatic, problem solving, organizational
-                                            and leadership skills.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- One Third (1/3) Column -->
-                        <div class="column one-third column_list">
-                            <div class="list_item lists_4 clearfix">
-                                <div class="circle">
-                                    3
-                                </div>
-                                <div class="list_right">
-                                    <div class="desc">
-                                        ­	Candidates must possess analytical skills, exhibit signs of
-                                            integrity and reliability in performance, as well as respect for diversity.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Page devider -->
-                        <!-- One full width row-->
-                        <div class="column one column_divider">
-                            <hr class="no_line">
-                        </div>
-                        <!-- One Third (1/3) Column -->
-                        <div class="column one-third column_list">
-                            <div class="list_item lists_4 clearfix">
-                                <div class="circle">
-                                    4
-                                </div>
-                                <div class="list_right">
-                                    <div class="desc">
-                                        ­	Should be able to work in a multicultural, multiethnic environment
-                                            and to maintain effective working relations with people of different
-                                            national and cultural backgrounds.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- One Third (1/3) Column -->
-                        <div class="column one-third column_list">
-                            <div class="list_item lists_4 clearfix">
-                                <div class="circle">
-                                    5
-                                </div>
-                                <div class="list_right">
-                                    <div class="desc">
-                                        ­	The ideal candidates should demonstrate the ability to articulate clear goals,
-                                            identify priorities, foresee risks, monitor and adjust plans and actions as necessary &
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- One Third (1/3) Column -->
-                        <div class="column one-third column_list">
-                            <div class="list_item lists_4 clearfix">
-                                <div class="circle">
-                                    6
-                                </div>
-                                <div class="list_right">
-                                    <div class="desc">
-                                        ­	Above all, these positions require the ability to listen and communicate clearly and effectively either in writing or speaking.
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="section sections_style_2" style="background-color:#edeff2;">
                         <div class="section_wrapper clearfix">
                             <div class="items_group clearfix">
@@ -307,7 +182,7 @@
                         <!-- One full width row-->
                         <div class="column one column_column">
                             <div class="column_attr ">
-                                <h2 class="title" style="text-align: center">How it Works</h2>
+                                <h2 class="title" style="text-align: center">How to Apply</h2>
                             </div>
                         </div>
                         <!-- One Fourth (1/3) Column -->
@@ -358,7 +233,7 @@
                                 <div class="column one-fourth column_pricing_item">
                                     <div class="pricing-box pricing-box-box">
                                         <div class="plan-header">
-                                            <div class="image"><img src="images/home_hosting_pricing_pic_1.png" alt="Basic">
+                                            <div class="image"><img src="univeristy/images/home_hosting_pricing_pic_1.png" alt="Basic">
                                             </div>
                                             <h2>Basic</h2>
                                             <div class="price">
@@ -397,7 +272,7 @@
                                 <div class="column one-fourth column_pricing_item">
                                     <div class="pricing-box pricing-box-featured pricing-box-box">
                                         <div class="plan-header">
-                                            <div class="image"><img src="images/home_hosting_pricing_pic_2.png" alt="Standard">
+                                            <div class="image"><img src="univeristy/images/home_hosting_pricing_pic_2.png" alt="Standard">
                                             </div>
                                             <h2>Standard</h2>
                                             <div class="price">
@@ -436,7 +311,7 @@
                                 <div class="column one-fourth column_pricing_item">
                                     <div class="pricing-box pricing-box-box">
                                         <div class="plan-header">
-                                            <div class="image"><img src="images/home_hosting_pricing_pic_3.png" alt="Business">
+                                            <div class="image"><img src="univeristy/images/home_hosting_pricing_pic_3.png" alt="Business">
                                             </div>
                                             <h2>Business</h2>
                                             <div class="price">
@@ -476,7 +351,7 @@
                                 <div class="column one-fourth column_pricing_item">
                                     <div class="pricing-box pricing-box-box">
                                         <div class="plan-header">
-                                            <div class="image"><img src="images/home_hosting_pricing_pic_4.png" alt="Professional">
+                                            <div class="image"><img src="univeristy/images/home_hosting_pricing_pic_4.png" alt="Professional">
                                             </div>
                                             <h2>Professional</h2>
                                             <div class="price">

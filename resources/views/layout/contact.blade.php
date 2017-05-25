@@ -49,20 +49,20 @@
                         <div class="top_bar_left clearfix">
                             <!-- Logo-->
                             <div class="logo">
-                                <a id="logo" href="{{url('/')}}" title="A2B "><img class="scale-with-grid" src="{{asset('a2b.png')}}" alt="A2B LOGO" /> </a>
+                                <a id="logo" href="{{url('/')}}" title="a2b"><img class="scale-with-grid" src="{{asset('a2b.png')}}" alt="a2b" /> </a>
                             </div>
                             <!-- Main menu-->
                             <div class="menu_wrapper">
                                 <nav id="menu">
 
                                     <ul id="menu-main-menu" class="menu">
-                                        <li >
+                                        <li class="current_page_item">
                                             <a href="{{url('/')}}"><span>Home</span></a>
                                         </li>
                                         <li>
                                             <a href="#departments"><span>Services</span></a>
                                         </li>
-                                        <li class="current_page_item">
+                                        <li>
                                             <a disabled><span>Programmes</span></a>
                                             <ul class="sub-menu">
                                                 <li>
@@ -82,17 +82,16 @@
                                         </li>
 
                                         <li>
-                                            <a href="{{url('')}}"><span>Apply</span></a>
+                                            <a href="{{url('apply')}}"><span>Apply</span></a>
                                         </li>
                                         <li>
-                                            <a href="{{url('')}}"><span>News &#038; Events</span></a>
+                                            <a href="{{url('news')}}"><span>News &#038; Events</span></a>
                                         </li>
                                         <li>
                                             <a href="{{route('contact')}}"><span>Contact</span></a>
                                         </li>
                                     </ul>
-                                </nav><a class="responsive-menu-toggle" href="#"><i class="icon-menu"></i></a>
-                            </div>
+                                </nav><a class="responsive-menu-toggle" href="#"><i class="icon-menu"></i></a>                            </div>
                             <!-- Header Searchform area-->
                             <div class="search_wrapper">
                                 <form method="get" action="#">
@@ -115,14 +114,14 @@
         <div id="Subheader">
             <div class="container">
                 <div class="column one">
-                    <h1 class="title">Our Programmes</h1>
+                    <h1 class="title">Contact</h1>
                     <!--BreadCrumbs area-->
                     <ul class="breadcrumbs">
                         <li>
                             <a href="{{url('/')}}">Home</a><span><i class="icon-right-open"></i></span>
                         </li>
                         <li>
-                            <a href="{{url('#')}}">Programmes</a>
+                            <a href="{{url('contact')}}">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -131,7 +130,6 @@
         @yield('header')
     </div>
     @yield('content')
-<!-- Footer-->
     <footer id="Footer" class="clearfix">
         <!-- Footer copyright-->
         <div class="footer_copy">
@@ -157,15 +155,17 @@
     </footer>
     @yield('footer')
 </div>
-
 <!-- JS -->
-<script src="{{asset('js/jquery-2.1.4.min.js')}}"></script>
+<script src="js/jquery-2.1.4.min.js"></script>
 
-<script src="{{asset('js/mfn.menu.js')}}"></script>
-<script src="{{asset('js/jquery.plugins.js')}}"></script>
-<script src="{{asset('js/jquery.jplayer.min.js')}}"></script>
-<script src="{{asset('js/animations/animations.js')}}"></script>
-<script src="{{asset('js/scripts.js')}}"></script>
+<script src="js/mfn.menu.js"></script>
+<script src="js/jquery.plugins.js"></script>
+<script src="js/jquery.jplayer.min.js"></script>
+<script src="js/animations/animations.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/email.js"></script>
+
+
 
 <script>
     jQuery(window).load(function() {
@@ -174,11 +174,11 @@
             var retinaEl = jQuery("#logo img.logo-main");
             var retinaLogoW = retinaEl.width();
             var retinaLogoH = retinaEl.height();
-            retinaEl.attr("src", "a2b").width(retinaLogoW).height(retinaLogoH);
+            retinaEl.attr("src", "images/retina-university.png").width(retinaLogoW).height(retinaLogoH);
             var stickyEl = jQuery("#logo img.logo-sticky");
             var stickyLogoW = stickyEl.width();
             var stickyLogoH = stickyEl.height();
-            stickyEl.attr("src", "a2b.png").width(stickyLogoW).height(stickyLogoH);
+            stickyEl.attr("src", "images/retina-university.png").width(stickyLogoW).height(stickyLogoH);
         }
     });
 </script>

@@ -19,8 +19,11 @@
                                         <h3>
                                             Special Programs internship positions require enthusiasm, creativity, innovation, strong interpersonal, diplomatic, problem solving, organizational and leadership skills.                                        </h3>
                                         <hr class="no_line hrmargin_b_30" />
-                                        <a class="content_link " href="#"><span class="icon"><i class="icon-picture"></i></span><span class="title">Explore</span></a><a class="content_link " href="#"><span class="icon"><i class="icon-calendar"></i></span><span class="title">Learn</span></a><a class="content_link " href="#"><span class="icon"><i class="icon-users"></i></span><span class="title">Network</span></a>
-                                    </div>
+                                        <a class="content_link " href="#"><span class="icon"><i class="icon-search-line"></i></span><span class="title">Screen</span></a>
+                                        <a class="content_link " href="#"><span class="icon"><i class="icon-users"></i></span><span class="title">Match</span></a>
+                                        <a class="content_link " href="#"><span class="icon"><i class="icon-user-add"></i></span><span class="title">Assign</span></a>
+                                        <a class="content_link " href="#"><span class="icon"><i class="icon-compass"></i></span><span class="title">Mentor</span></a>
+                                        <a class="content_link " href="#"><span class="icon"><i class="icon-chart-area"></i></span><span class="title">Track</span></a>                                      </div>
                                 </div>
                             </div>
                         </div>
@@ -39,28 +42,6 @@
                                 <div class="column two-third column_column">
                                     <div class="column_attr ">
                                         <!-- One Second (1/2) Column -->
-                                        <div class="column one-second">
-                                            <h2>How we do it?</h2>
-                                            <p class="big">
-                                                ­	A2B pre-screen all interns who indicate interest for Special Programs Internships.
-                                                    Depending on Interns’ preferences and availability they are matched with
-                                                    Special Programs Internships when available.
-                                            </p>
-                                            <p>
-                                             ­	A2B matches employers’ requests to find best fitting interns through A2B advanced algorithms                                     </p>
-                                        </div>
-                                        <!-- One Second (1/2) Column -->
-                                        <div class="column one-second">
-                                            <ul style="padding-top: 50px;" class="list_check">
-                                                <li>
-                                                    ­	Once an Intern meet all the requirements of the available internship you
-                                                        are allocated an A2B executive who will support your introduction to the employer.
-                                                </li>
-                                                <li>
-                                                    ­	In collaboration with the employer A2B facilitate your performance tracking and mentorship
-                                                </li>
-                                            </ul>
-                                        </div>
                                         <div class="column one">
                                             <h2>What can you expect during Special Program Internships and beyond?</h2>
                                             <p class="big">
@@ -76,6 +57,22 @@
                                             <div class="flv_align_right">
                                                 <img alt="" src="{{asset('university/images/home_business_signature.png')}}">
                                             </div>
+                                        </div>
+                                        <div class="column one">
+                                            <h2>Qualifications & competencies</h2>
+                                            <ul>
+                                                <li>Currently studying or graduate with relevant degree with reputable University.</li>
+                                                <li>Special Programs internship positions require enthusiasm, creativity, innovation,
+                                                    strong interpersonal, diplomatic, problem solving, organizational and leadership skills.</li>
+                                                <li>Candidates must possess analytical skills, exhibit signs of
+                                                    integrity and reliability in performance, as well as respect for diversity.</li>
+                                                <li>Should be able to work in a multi-cultural, multi-ethnic environment and to
+                                                    maintain effective working relations with people of different national and cultural backgrounds.</li>
+                                                <li>The ideal candidates should demonstrate the ability to articulate clear goals, identify priorities,
+                                                    foresee risks, monitor and adjust plans and actions as necessary.</li>
+                                                <li>Above all, these positions require the ability to listen and communicate clearly and effectively
+                                                    either in writing or speaking.</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -140,129 +137,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="items_group clearfix" style="padding-top: 10%">
-                        <!-- One full width row-->
-                        <div class="column one column_column">
-                            <div class="column_attr ">
-                                <h2 class="flv_style_4" style="text-align: center">Qualifications & competencies</h2>
-                            </div>
-                        </div>
-                        <!-- Page devider -->
-                        <!-- One full width row-->
-                        <div class="column one column_divider">
-                            <hr class="no_line flv_margin_40">
-                        </div>
-                        <!-- One Third (1/3) Column -->
-                        <div class="column one-third column_list" >
-                            <div class="list_item lists_4 clearfix">
-                                <div class="circle">
-                                    1
-                                </div>
-                                <div class="list_right">
-                                    <div class="desc">
-                                        ­ Currently studying or graduate with relevant degree with reputable University.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- One Third (1/3) Column -->
-                        <div class="column one-third column_list">
-                            <div class="list_item lists_4 clearfix">
-                                <div class="circle">
-                                    2
-                                </div>
-                                <div class="list_right">
-                                    <div class="desc">
-                                        ­	Special Programs internship positions require enthusiasm, creativity, innovation, strong interpersonal, diplomatic, problem solving, organizational and leadership skills.                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- One Third (1/3) Column -->
-                        <div class="column one-third column_list">
-                            <div class="list_item lists_4 clearfix">
-                                <div class="circle">
-                                    3
-                                </div>
-                                <div class="list_right">
-                                    <div class="desc">
-                                        ­ Candidates must possess analytical skills, exhibit signs of integrity and reliability in performance, as well as respect for diversity.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Page devider -->
-                        <!-- One full width row-->
-                        <div class="column one column_divider">
-                            <hr class="no_line">
-                        </div>
-                        <!-- One Third (1/3) Column -->
-                        <div class="column one-third column_list">
-                            <div class="list_item lists_4 clearfix">
-                                <div class="circle">
-                                    4
-                                </div>
-                                <div class="list_right">
-                                    <div class="desc">
-                                        ­Should be able to work in a multi-cultural, multi-ethnic environment and to maintain effective working relations with people of different national and cultural backgrounds.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- One Third (1/3) Column -->
-                        <div class="column one-third column_list">
-                            <div class="list_item lists_4 clearfix">
-                                <div class="circle">
-                                    5
-                                </div>
-                                <div class="list_right">
-                                    <div class="desc">
-                                        ­The ideal candidates should demonstrate the ability to articulate clear goals, identify priorities, foresee risks, monitor and adjust plans and actions as necessary.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- One Third (1/3) Column -->
-                        <div class="column one-third column_list">
-                            <div class="list_item lists_4 clearfix">
-                                <div class="circle">
-                                    6
-                                </div>
-                                <div class="list_right">
-                                    <div class="desc">
-                                        ­	Above all, these positions require the ability to listen and communicate clearly and effectively either in writing or speaking.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="section sections_style_2" style="background-color:#edeff2;">
-                        <div class="section_wrapper clearfix">
-                            <div class="items_group clearfix">
-                                <!-- One full width row-->
-                                <div class="column one column_fancy_heading">
-                                    <div class="fancy_heading fancy_heading_icon">
-                                        <h2 class="title">Important Notice: Compensation</h2>
-                                    </div>
-                                </div>
-                                <!-- One full width row-->
-                                <div class="column one column_column">
-                                    <div class="column_attr align_center">
-                                        <div style="margin: 0 15%;">
-                                            <h4>
-                                                Featured Internships are unpaid positions. In very rare cases some employers have
-                                                limited benefits extended to interns in their organizations but this is not guaranteed.
-                                            </h4>
-                                            <p>
-                                                The guaranteed benefits for A2B Featured Internships include valuable experience gained
-                                                while working as an intern. In addition, as intern you will have access to professional development,
-                                                mentorship, conferences, and networking opportunities.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="items_group clearfix" style="margin: 0 15%; padding-top: 10%">
                         <!-- One full width row-->
                         <div class="column one column_column">
@@ -305,7 +179,36 @@
                         </div>
 
                     </div>
-                    <div class="section" style="padding-top:60px; padding-bottom:20px; background-color:#edeff2; ">
+
+                    <div class="section sections_style_2" style="background-color:#edeff2;">
+                        <div class="section_wrapper clearfix">
+                            <div class="items_group clearfix">
+                                <!-- One full width row-->
+                                <div class="column one column_fancy_heading">
+                                    <div class="fancy_heading fancy_heading_icon">
+                                        <h2 class="title">Important Notice: Compensation</h2>
+                                    </div>
+                                </div>
+                                <!-- One full width row-->
+                                <div class="column one column_column">
+                                    <div class="column_attr align_center">
+                                        <div style="margin: 0 15%;">
+                                            <h4>
+                                                Featured Internships are unpaid positions. In very rare cases some employers have
+                                                limited benefits extended to interns in their organizations but this is not guaranteed.
+                                            </h4>
+                                            <p>
+                                                The guaranteed benefits for A2B Featured Internships include valuable experience gained
+                                                while working as an intern. In addition, as intern you will have access to professional development,
+                                                mentorship, conferences, and networking opportunities.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section" style="padding-top:60px; padding-bottom:20px; background-color:#ffffff; ">
                         <div class="section_wrapper clearfix">
                             <div class="items_group clearfix" style=" margin: 0 15%">
                                 <!-- One full width row-->

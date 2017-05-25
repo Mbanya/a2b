@@ -22,3 +22,6 @@ Route::get('featured','PagesController@featured')->name('featured');
 Route::get('special_programs','PagesController@special_programs')->name('special');
 Route::get('student_ambassador','PagesController@student_ambassador')->name('ambassador');
 Route::get('platinum_plus','PagesController@platinum_plus')->name('platinum');
+Route::get('news', function (){
+    return view('news-events');
+});

@@ -11,12 +11,9 @@ class PagesController extends Controller
     }
 
     public function contact (){
-        return view('');
+        return view('pages.contact');
     }
 
-    public function services (){
-        return view('');
-    }
     public function featured (){
         return view('plans.Featured_internships');
     }

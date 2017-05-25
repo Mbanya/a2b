@@ -123,7 +123,7 @@
                                             <!-- One Second (1/2) Column -->
                                             <div class="column one-second">
                                                 <div class="image_frame no_link scale-with-grid alignnone no_border">
-                                                    <div class="image_wrapper"><img class="scale-with-grid" src="university/images/placement.jpg" alt="">
+                                                    <div class="image_wrapper"><img class="scale-with-grid" src="university/images/1.jpg" alt="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -163,7 +163,7 @@
                                             <!-- One Second (1/2) Column -->
                                             <div class="column one-second">
                                                 <div class="image_frame no_link scale-with-grid alignnone no_border">
-                                                    <div class="image_wrapper"><img class="scale-with-grid" src="university/images/development.jpg" alt="">
+                                                    <div class="image_wrapper"><img class="scale-with-grid" src="university/images/placement.jpg" alt="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -178,7 +178,6 @@
                                                     SAI is an initiative aimed to cultivate business development and marketing skills among students who are based at the University Campus. This means through our SAI initiative students are given opportunity to earn income while studying.</br>
                                                     Through the SAI program you become a leader among your peers in influencing change towards new global social initiatives or adoption of new innovations and products.</br>
                                                     Most Projects and Initiatives under SAI relates to marketing corporate business products or being a student ambassador for a social or commercial programme.</br>
-                                                    Student Ambassador Internships are highly specialized and tailor-made to the goals and objectives of the client organization.</br>
 
                                                 </p>
                                                 <div class="hr_dots hrmargin_b_30">
@@ -202,7 +201,7 @@
                                             <!-- One Second (1/2) Column -->
                                             <div class="column one-second">
                                                 <div class="image_frame no_link scale-with-grid alignnone no_border">
-                                                    <div class="image_wrapper"><img class="scale-with-grid" src="university/images/banner2.jpg" alt="">
+                                                    <div class="image_wrapper"><img class="scale-with-grid" src="university/images/young_lady.jpg" alt="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -274,7 +273,49 @@
                                 </div>
                         </div>
                     </div>
-
+                <div class="items_group clearfix" style="margin: 0 15%; padding-top: 10%">
+                        <!-- One full width row-->
+                    <div class="column one column_fancy_heading">
+                        <div class="fancy_heading fancy_heading_icon">
+                            <h2 class="title">Are Internships Overrated?</h2>
+                        </div>
+                    </div>
+                        <!-- One Fourth (1/3) Column -->
+                        <div class="column one-third column_how_it_works">
+                            <div class="how_it_works has_border">
+                                <div class="image"><img src="{{asset('university/images/intern_stats.png')}}" class="scale-with-grid" alt="Step 1"><span class="number">1</span>
+                                </div>
+                                <h4>Job Offers</h4>
+                                <div class="desc">
+                                   58% of those who do internships are more likely to get job offers compared to only<br>
+                                    30% of non-interns
+                                </div>
+                            </div>
+                        </div>
+                        <!-- One third (1/3) Column -->
+                        <div class="column one-third column_how_it_works">
+                            <div class="how_it_works has_border">
+                                <div class="image"><img src="{{asset('university/images/intern_stats2.png')}}" class="scale-with-grid" alt="Step 2"><span class="number">2</span>
+                                </div>
+                                <h4>Career transition</h4>
+                                <div class="desc">
+                                    From college to career takes on average 12 months for interns compared to 36 months <br>for non-interns
+                                </div>
+                            </div>
+                        </div>
+                        <!-- One third (1/3) Column -->
+                        <div class="column one-third column_how_it_works">
+                            <div class="how_it_works has_border">
+                                <div class="image"><img src="{{asset('university/images/intern_stats3.png')}}" class="scale-with-grid" alt="Step 3"><span class="number">3</span>
+                                </div>
+                                <h4>Work Experience</h4>
+                                <div class="desc">
+                                    96% of employers consider relevant work experience more important than <br>
+                                    strong academic performance
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="section" style="padding-top:0px; padding-bottom:0px; background-color:#f9f9f9">
                         <div class="section_wrapper clearfix">
@@ -446,31 +487,7 @@
                                 </div>
                                 <!-- Page devider -->
                                 <!-- One full width row-->
-                                <div class="column one column_divider">
-                                    <hr class="no_line" style="margin: 0 auto 50px;" />
-                                </div>
-                                <!-- One Second (1/2) Column -->
-                                <div class="column one-second column_column">
-                                    <div class="column_attr ">
-                                        <h2 style="margin-bottom: 40px; margin-top: 40px;">The Importance Of Internships </h2>
-                                        <p style="margin-bottom: 40px;">
-                                           Relevant work experience is more important to employers than stromg academic performance. Statistics
-                                           state that 63% of college graduates have completed at-least one internship and 66% of employers believe
-                                           interview performance and relevant work experience are the most important factors in their hiring decisions.<br>
-                                           85% of employers say hiring interns was a positive experience while 86% of students polled say that thier internship
-                                            experience was a positive one.
 
-                                        </p>
-                                        <a class="button button_grey button_js" href="#"><span class="button_label">Apply now</span></a>
-                                    </div>
-                                </div>
-                                <!-- One Second (1/2) Column -->
-                                <div class="column one-second column_column">
-                                    <div class="column_attr ">
-                                       <img class="scale-with-grid" src="{{asset('university/images/358_7190.jpg')}}" alt="">
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <div class="section the_content">

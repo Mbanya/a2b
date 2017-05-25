@@ -33,8 +33,7 @@
 
     @yield('assets')
 </head>
-
-<body class="layout-full-width header-classic minimalist-header sticky-header sticky-white subheader-title-left no-content-padding">
+<body class="blog with_aside aside_right layout-full-width header-classic minimalist-header sticky-header sticky-white subheader-title-left no-content-padding">
 <!-- Main Theme Wrapper -->
 <div id="Wrapper">
     <!-- Header Wrapper -->
@@ -49,7 +48,7 @@
                         <div class="top_bar_left clearfix">
                             <!-- Logo-->
                             <div class="logo">
-                                <a id="logo" href="{{url('/')}}" title="A2B "><img class="scale-with-grid" src="{{asset('a2b.png')}}" alt="A2B LOGO" /> </a>
+                                <a id="logo" href="../../index-university.html" title="BeUniversity - BeTheme"><img class="scale-with-grid" src="images/university.png" alt="BeUniversity - BeTheme" /> </a>
                             </div>
                             <!-- Main menu-->
                             <div class="menu_wrapper">
@@ -62,7 +61,7 @@
                                         <li>
                                             <a href="#departments"><span>Services</span></a>
                                         </li>
-                                        <li class="current_page_item">
+                                        <li >
                                             <a disabled><span>Programmes</span></a>
                                             <ul class="sub-menu">
                                                 <li>
@@ -84,7 +83,7 @@
                                         <li>
                                             <a href="{{url('')}}"><span>Apply</span></a>
                                         </li>
-                                        <li>
+                                        <li class="current_page_item">
                                             <a href="{{url('')}}"><span>News &#038; Events</span></a>
                                         </li>
                                         <li>
@@ -110,19 +109,20 @@
                     </div>
                 </div>
             </div>
+
         </header>
         <!--Subheader area - only for certain pages -->
         <div id="Subheader">
             <div class="container">
                 <div class="column one">
-                    <h1 class="title">Our Programmes</h1>
+                    <h1 class="title">News &#038; Events</h1>
                     <!--BreadCrumbs area-->
                     <ul class="breadcrumbs">
                         <li>
                             <a href="{{url('/')}}">Home</a><span><i class="icon-right-open"></i></span>
                         </li>
                         <li>
-                            <a href="{{url('#')}}">Programmes</a>
+                            <a href="{{url('news')}}">News &#038; Events</a><span><i class="icon-right-open"></i></span>
                         </li>
                     </ul>
                 </div>
@@ -130,8 +130,9 @@
         </div>
         @yield('header')
     </div>
-    @yield('content')
-<!-- Footer-->
+
+        @yield('content')
+
     <footer id="Footer" class="clearfix">
         <!-- Footer copyright-->
         <div class="footer_copy">
@@ -157,31 +158,30 @@
     </footer>
     @yield('footer')
 </div>
+    <!-- JS -->
+    <script src="../../js/jquery-2.1.4.min.js"></script>
 
-<!-- JS -->
-<script src="{{asset('js/jquery-2.1.4.min.js')}}"></script>
+    <script src="../../js/mfn.menu.js"></script>
+    <script src="../../js/jquery.plugins.js"></script>
+    <script src="../../js/jquery.jplayer.min.js"></script>
+    <script src="../../js/animations/animations.js"></script>
+    <script src="../../js/scripts.js"></script>
 
-<script src="{{asset('js/mfn.menu.js')}}"></script>
-<script src="{{asset('js/jquery.plugins.js')}}"></script>
-<script src="{{asset('js/jquery.jplayer.min.js')}}"></script>
-<script src="{{asset('js/animations/animations.js')}}"></script>
-<script src="{{asset('js/scripts.js')}}"></script>
-
-<script>
-    jQuery(window).load(function() {
-        var retina = window.devicePixelRatio > 1 ? true : false;
-        if (retina) {
-            var retinaEl = jQuery("#logo img.logo-main");
-            var retinaLogoW = retinaEl.width();
-            var retinaLogoH = retinaEl.height();
-            retinaEl.attr("src", "a2b").width(retinaLogoW).height(retinaLogoH);
-            var stickyEl = jQuery("#logo img.logo-sticky");
-            var stickyLogoW = stickyEl.width();
-            var stickyLogoH = stickyEl.height();
-            stickyEl.attr("src", "a2b.png").width(stickyLogoW).height(stickyLogoH);
-        }
-    });
-</script>
+    <script>
+        jQuery(window).load(function() {
+            var retina = window.devicePixelRatio > 1 ? true : false;
+            if (retina) {
+                var retinaEl = jQuery("#logo img.logo-main");
+                var retinaLogoW = retinaEl.width();
+                var retinaLogoH = retinaEl.height();
+                retinaEl.attr("src", "images/retina-university.png").width(retinaLogoW).height(retinaLogoH);
+                var stickyEl = jQuery("#logo img.logo-sticky");
+                var stickyLogoW = stickyEl.width();
+                var stickyLogoH = stickyEl.height();
+                stickyEl.attr("src", "images/retina-university.png").width(stickyLogoW).height(stickyLogoH);
+            }
+        });
+    </script>
 
 </body>
 @yield('scripts')
