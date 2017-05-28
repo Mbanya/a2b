@@ -22,6 +22,17 @@ Route::get('featured','PagesController@featured')->name('featured');
 Route::get('special_programs','PagesController@special_programs')->name('special');
 Route::get('student_ambassador','PagesController@student_ambassador')->name('ambassador');
 Route::get('platinum_plus','PagesController@platinum_plus')->name('platinum');
-Route::get('news', function (){
-    return view('news-events');
+Route::get('employers','PagesController@employers')->name('employers');
+Route::resource('news','PostsController');
+Route::get('post/{slug}','PostController@show');
+Route::resource('apply','ApplyController');
+Route::resource('employer','EmployersController');
+Route::resource('internships','InternshipsController');
+
+
+
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
 });

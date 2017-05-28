@@ -113,7 +113,7 @@
                                                     </div>
                                                     <div class="column one-fourth">
                                                             <div style="text-align: right; clear: both; padding-top:15px; border-top: 1px solid rgba(0,0,0,.07);">
-                                                                <a class="button button_green button_js" href="#"><span class="button_label">Apply</span></a>
+                                                                <a class="button button_green button_js" href="{{url('apply/create')}}"><span class="button_label">Apply</span></a>
                                                             </div>
                                                     </div>
                                                 </div>
@@ -153,7 +153,7 @@
                                                     </div>
                                                     <div class="column one-fourth">
                                                         <div style="text-align: right; clear: both; padding-top:15px; border-top: 1px solid rgba(0,0,0,.07);">
-                                                            <a class="button button_green button_js" href="#"><span class="button_label">Apply</span></a>
+                                                            <a class="button button_green button_js" href="{{url('apply/create')}}"><span class="button_label">Apply</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -191,7 +191,7 @@
                                                     </div>
                                                     <div class="column one-fourth">
                                                         <div style="text-align: right; clear: both; padding-top:15px; border-top: 1px solid rgba(0,0,0,.07);">
-                                                            <a class="button button_green button_js" href="#"><span class="button_label">Apply</span></a>
+                                                            <a class="button button_green button_js" href="{{url('apply/create')}}"><span class="button_label">Apply</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -201,7 +201,7 @@
                                             <!-- One Second (1/2) Column -->
                                             <div class="column one-second">
                                                 <div class="image_frame no_link scale-with-grid alignnone no_border">
-                                                    <div class="image_wrapper"><img class="scale-with-grid" src="university/images/young_lady.jpg" alt="">
+                                                    <div class="image_wrapper"><img class="scale-with-grid" src="university/images/adminstrative-assistant-virtual_assistant.jpg" alt="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -232,7 +232,7 @@
                                                     </div>
                                                     <div class="column one-fourth">
                                                         <div style="text-align: right; clear: both; padding-top:15px; border-top: 1px solid rgba(0,0,0,.07);">
-                                                            <a class="button button_green button_js" href="#"><span class="button_label">Apply</span></a>
+                                                            <a class="button button_green button_js" href="{{url('apply/create')}}"><span class="button_label">Apply</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -273,7 +273,7 @@
                                 </div>
                         </div>
                     </div>
-                <div class="items_group clearfix" style="margin: 0 15%; padding-top: 10%">
+                <div class="items_group clearfix" style="margin: 0 15%; padding-top: 10%; max-width: 100%;">
                         <!-- One full width row-->
                     <div class="column one column_fancy_heading">
                         <div class="fancy_heading fancy_heading_icon">
@@ -334,15 +334,15 @@
                                         <div class="posts_group lm_wrapper masonry isotope">
                                             <div class="post-2283 post  format-standard has-post-thumbnail  category-stories tag-design post-item isotope-item clearfix">
                                                 <div class="date_label">
-                                                    May 5, 2014
+                                                    <?php echo date("Y/m/d")?>
                                                 </div>
                                                 <div class="image_frame post-photo-wrapper scale-with-grid">
                                                     <div class="image_wrapper">
-                                                        <a href="content/university/article-3.html">
-                                                            <div class="mask"></div><img width="576" height="450" src="university/images/olu-eletu-211914.jpg" class="scale-with-grid wp-post-image" alt="home_university_blog_1" />
+                                                        <a href="">
+                                                            <div class="mask"></div><img width="576" height="450" src="university/images/olu-eletu-211914.jpg" class="scale-with-grid wp-post-image" alt="a2b blog" />
                                                         </a>
                                                         <div class="image_links double">
-                                                            <a href="university/images/olu-eletu-211914.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="content/university/article-3.html" class="link"><i class="icon-link"></i></a>
+                                                            <a href="university/images/olu-eletu-211914.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="" class="link"><i class="icon-link"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -350,34 +350,38 @@
                                                     <div class="post-desc">
                                                         <div class="post-meta clearfix">
                                                             <div class="author-date">
-                                                                <span class="vcard author post-author"><span class="label">Published by </span><i class="icon-user"></i> <span class="fn"><a href="#">admin</a></span></span><span class="date"><span class="label">at </span><i class="icon-clock"></i> <span class="post-date updated">May 5, 2015</span></span>
+                                                                <span class="vcard author post-author"><span class="label">Published by </span><i class="icon-user"></i> <span class="fn"><a href="#">admin</a></span></span><span class="date"><span class="label"> on </span><i class="icon-clock"></i> <span class="post-date updated"><?php echo  date("Y/m/d")?></span></span>
                                                             </div>
                                                             <div class="category">
                                                                 <span class="cat-btn">Categories <i class="icon-down-dir"></i></span>
                                                                 <div class="cat-wrapper">
                                                                     <ul class="post-categories">
                                                                         <li>
-                                                                            <a href="content/university/category-news.html" rel="category tag">News</a>
+                                                                            <a href="" rel="category tag">News</a>
                                                                         </li>
                                                                         <li>
-                                                                            <a href="content/university/category-stories.html" rel="category tag">Stories</a>
+                                                                            <a href="" rel="category tag">Stories</a>
                                                                         </li>
                                                                     </ul>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="post-title">
-                                                            <h2 class="entry-title"><a href="university/article-3.html">What is an Internship?</a></h2>
+                                                            <h2 class="entry-title"><a href="">What is an Internship?</a></h2>
                                                         </div>
                                                         <div class="post-excerpt">
-                                                            Aenean ligula nunc, accumsan quam, lobortis fringilla, massa. Maecenas pellentesque dolor.
+                                                            An internship is an official program offered by an employer to potential employees.
+                                                            Interns work either part time or full time at a company for a certain period of time.
+                                                            Internships are most popular with undergraduates or graduate students who work between
+                                                            one to four months and have a goal to gain practical work or research related experience.
+
                                                         </div>
                                                         <div class="post-footer">
                                                             <div class="button-love">
                                                                 <span class="love-text">Do you like it?</span><a href="#" class="mfn-love " data-id="2283"><span class="icons-wrapper"><i class="icon-heart-empty-fa"></i><i class="icon-heart-fa"></i></span><span class="label">5</span></a>
                                                             </div>
                                                             <div class="post-links">
-                                                                <i class="icon-comment-empty-fa"></i><a href="university/article-3.html#comments" class="post-comments">0</a><i class="icon-doc-text"></i><a href="content/university/article-3.html" class="post-more">Read more</a>
+                                                                <i class="icon-doc-text"></i><a href="" class="post-more">Read more</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -385,15 +389,15 @@
                                             </div>
                                             <div class="post-2285 post  format-standard has-post-thumbnail  category-stories  post-item isotope-item clearfix">
                                                 <div class="date_label">
-                                                    May 4, 2014
+                                                    <?php echo date("Y/m/d")?>
                                                 </div>
                                                 <div class="image_frame post-photo-wrapper scale-with-grid">
                                                     <div class="image_wrapper">
-                                                        <a href="university/article-4.html">
-                                                            <div class="mask"></div><img width="576" height="450" src="university/images/olu-eletu-211916.jpg" class="scale-with-grid wp-post-image" alt="home_university_blog_2" />
+                                                        <a href="">
+                                                            <div class="mask"></div><img width="576" height="450" src="university/images/olu-eletu-211916.jpg" class="scale-with-grid wp-post-image" alt="a2b blog" />
                                                         </a>
                                                         <div class="image_links double">
-                                                            <a href="university/images/olu-eletu-211916.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="content/university/article-4.html" class="link"><i class="icon-link"></i></a>
+                                                            <a href="university/images/olu-eletu-211916.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="" class="link"><i class="icon-link"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -401,34 +405,38 @@
                                                     <div class="post-desc">
                                                         <div class="post-meta clearfix">
                                                             <div class="author-date">
-                                                                <span class="vcard author post-author"><span class="label">Published by </span><i class="icon-user"></i> <span class="fn"><a href="#">admin</a></span></span><span class="date"><span class="label">at </span><i class="icon-clock"></i> <span class="post-date updated">May 4, 2015</span></span>
+                                                                <span class="vcard author post-author"><span class="label">Published by </span><i class="icon-user"></i> <span class="fn"><a href="#">admin</a></span></span><span class="date"><span class="label"> on </span><i class="icon-clock"></i> <span class="post-date updated"><?php echo  date("Y/m/d")?></span></span>
                                                             </div>
                                                             <div class="category">
                                                                 <span class="cat-btn">Categories <i class="icon-down-dir"></i></span>
                                                                 <div class="cat-wrapper">
                                                                     <ul class="post-categories">
                                                                         <li>
-                                                                            <a href="university/category-news.html" rel="category tag">News</a>
+                                                                            <a href="" rel="category tag">News</a>
                                                                         </li>
                                                                         <li>
-                                                                            <a href="university/category-stories.html" rel="category tag">Stories</a>
+                                                                            <a href="" rel="category tag">Stories</a>
                                                                         </li>
                                                                     </ul>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="post-title">
-                                                            <h2 class="entry-title"><a href="university/article-4.html">Why You Should do an Internship?</a></h2>
+                                                            <h2 class="entry-title"><a href="">Why You Should do an Internship?</a></h2>
                                                         </div>
                                                         <div class="post-excerpt">
-                                                            Duis porttitor vel, eros. Mauris nec adipiscing elit. Nam sed porta eget, neque. Pellentesque fringilla neque quis blandit venenatis.
+                                                            The importance of an internship experience cannot be overstated.  Today, employers
+                                                            favor prospective employees who have done not only one internship but multiple internships.
+                                                            A college education will serve to propel a graduate into a profession by conferring a degree,
+                                                            which demonstrates an academic proficiency in various theoretical and practical examples of ways
+                                                            that a job might be performed.
                                                         </div>
                                                         <div class="post-footer">
                                                             <div class="button-love">
                                                                 <span class="love-text">Do you like it?</span><a href="#" class="mfn-love " data-id="2285"><span class="icons-wrapper"><i class="icon-heart-empty-fa"></i><i class="icon-heart-fa"></i></span><span class="label">6</span></a>
                                                             </div>
                                                             <div class="post-links">
-                                                                <i class="icon-comment-empty-fa"></i><a href="university/article-4.html#comments" class="post-comments">0</a><i class="icon-doc-text"></i><a href="content/university/article-4.html" class="post-more">Read more</a>
+                                                                <i class="icon-doc-text"></i><a href="" class="post-more">Read more</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -436,47 +444,52 @@
                                             </div>
                                             <div class="post-2287 post  format-standard has-post-thumbnail  category-stories post-item isotope-item clearfix">
                                                 <div class="date_label">
-                                                    May 3, 2014
+                                                   <?php echo date("Y/m/d")?>
                                                 </div>
                                                 <div class="image_frame post-photo-wrapper scale-with-grid">
                                                     <div class="image_wrapper">
-                                                        <a href="content/university/article-1.html">
-                                                            <div class="mask"></div><img width="576" height="450" src="university/images/tamarcus-brown-131428.jpg" class="scale-with-grid wp-post-image" alt="home_university_blog_3" />
+                                                        <a href="">
+                                                            <div class="mask"></div><img width="576" height="450" src="university/images/tamarcus-brown-131428.jpg" class="scale-with-grid wp-post-image" alt="a2b_blog" />
                                                         </a>
                                                         <div class="image_links double">
-                                                            <a href="university/images/tamarcus-brown-131428.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="content/university/article-1.html" class="link"><i class="icon-link"></i></a>
+                                                            <a href="university/images/tamarcus-brown-131428.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="" class="link"><i class="icon-link"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="post-desc-wrapper">a
+                                                <div class="post-desc-wrapper">
                                                     <div class="post-desc">
                                                         <div class="post-meta clearfix">
                                                             <div class="author-date">
-                                                                <span class="vcard author post-author"><span class="label">Published by </span><i class="icon-user"></i> <span class="fn"><a href="#">admin</a></span></span><span class="date"><span class="label">at </span><i class="icon-clock"></i> <span class="post-date updated">May 3, 2015</span></span>
+                                                                <span class="vcard author post-author"><span class="label">Published by </span><i class="icon-user"></i> <span class="fn"><a href="#">admin</a></span></span><span class="date"><span class="label"> on </span><i class="icon-clock"></i> <span class="post-date updated"> <?php echo  date("Y/m/d")?></span></span>
                                                             </div>
                                                             <div class="category">
                                                                 <span class="cat-btn">Categories <i class="icon-down-dir"></i></span>
                                                                 <div class="cat-wrapper">
                                                                     <ul class="post-categories">
                                                                         <li>
-                                                                            <a href="content/university/category-stories.html" rel="category tag">Stories</a>
+                                                                            <a href="" rel="category tag">Stories</a>
                                                                         </li>
                                                                     </ul>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="post-title">
-                                                            <h2 class="entry-title"><a href="content/university/article-1.html">VShould I Intern as a College Freshman?</a></h2>
+                                                            <h2 class="entry-title"><a href="">Should I Intern as a College Freshman?</a></h2>
                                                         </div>
                                                         <div class="post-excerpt">
-                                                            Lorem ipsum dolor sit amet neque vitae mauris. Etiam malesuada ultricies. Nullam ut nunc odio eget volutpat a, rutrum ac, magna. Nulla facilisi. Nullam justo. Sed [&hellip;]
+                                                            You’ve just moved into a dorm, and you were elected a student representative.
+                                                            You’ve just taken your first test, and you’ve gotten an “A.” You’ve just gone to your
+                                                            first school football game, and your team won. You’re on a roll, so it’s time to check
+                                                            out the internship situation at your school.  Although you might not be ready in your
+                                                            first semester to take on an internship, it’s not too early to find out more about your
+                                                            future options.
                                                         </div>
                                                         <div class="post-footer">
                                                             <div class="button-love">
                                                                 <span class="love-text">Do you like it?</span><a href="#" class="mfn-love " data-id="2287"><span class="icons-wrapper"><i class="icon-heart-empty-fa"></i><i class="icon-heart-fa"></i></span><span class="label">2</span></a>
                                                             </div>
                                                             <div class="post-links">
-                                                                <i class="icon-comment-empty-fa"></i><a href="content/university/article-1.html#comments" class="post-comments">0</a><i class="icon-doc-text"></i><a href="content/university/article-1.html" class="post-more">Read more</a>
+                                                                <i class="icon-doc-text"></i><a href="" class="post-more">Read more</a>
                                                             </div>
                                                         </div>
                                                     </div>

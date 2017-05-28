@@ -87,3 +87,5 @@
      margin-right: -8px;
      line-height: 64px;
  }
+
+ #success_message{ display: none;}

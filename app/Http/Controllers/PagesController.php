@@ -26,4 +26,7 @@ class PagesController extends Controller
     public function platinum_plus (){
         return view('plans.Platinum_Plus _internships');
     }
+    public function employers (){
+        return view('plans.employers');
+    }
 }

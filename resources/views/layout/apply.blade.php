@@ -11,32 +11,17 @@
 
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
+
     <meta name="description" content="">
     <meta name="author" content="">
-    <meta name="msapplication-TileColor" content="#ffbe02">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffbe02">
+
     <!-- Mobile Specific Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true">
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
+    <link rel="shortcut icon" href="">
 
 
     <!-- FONTS -->
@@ -45,12 +30,20 @@
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700'>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
 
+    <!--BOOTSTRAP -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/css/foundation.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css'>
 
     <!-- CSS -->
     <link rel='stylesheet' href='{{asset('css/global.css')}}'>
     <link rel='stylesheet' href='{{asset('university/css/structure.css')}}'>
     <link rel='stylesheet' href='{{asset('university/css/university.css')}}'>
     <link rel='stylesheet' href='{{asset('university/css/custom.css')}}'>
+
+
 
     @yield('assets')
 </head>
@@ -70,7 +63,7 @@
                         <div class="top_bar_left clearfix">
                             <!-- Logo-->
                             <div class="logo">
-                                <a id="logo" href="{{url('/')}}" title="A2B "><img class="scale-with-grid" src="{{asset('university/images/logo.png')}}" alt="A2B LOGO" /> </a>
+                                <a id="logo" href="{{url('/')}}" title="a2b"><img class="scale-with-grid" src="{{asset('university/images/logo.png')}}" alt="a2b" /> </a>
                             </div>
                             <!-- Main menu-->
                             <div class="menu_wrapper">
@@ -135,9 +128,21 @@
                                         </li>
                                     </ul>
                                 </nav><a class="responsive-menu-toggle" href="#"><i class="icon-menu"></i></a>
+                            <!-- Header Searchform area-->
+                            <div class="search_wrapper">
+                                <form method="get" action="#">
+                                    <i class="icon_search icon-search"></i><a href="#" class="icon_close"><i class="icon-cancel"></i></a>
+                                    <input type="text" class="field" name="s" placeholder="Enter your search" />
+                                    <input type="submit" class="submit flv_disp_none" value="" />
+                                </form>
                             </div>
+                        </div>
+                        <div class="top_bar_right">
+                            <div class="top_bar_right_wrapper">
+                                <a id="search_button" href="#"><i class="icon-search"></i></a>
+                            </div>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
         </header>
@@ -146,7 +151,6 @@
         @yield('header')
     </div>
     @yield('content')
-<!-- Footer-->
     <footer id="Footer" class="clearfix">
         <!-- Footer copyright-->
         <div class="footer_copy">
@@ -172,31 +176,33 @@
     </footer>
     @yield('footer')
 </div>
-
 <!-- JS -->
-<script src="{{asset('js/jquery-2.1.4.min.js')}}"></script>
+<script src="js/jquery-2.1.4.min.js"></script>
 
-<script src="{{asset('js/mfn.menu.js')}}"></script>
-<script src="{{asset('js/jquery.plugins.js')}}"></script>
-<script src="{{asset('js/jquery.jplayer.min.js')}}"></script>
-<script src="{{asset('js/animations/animations.js')}}"></script>
-<script src="{{asset('js/scripts.js')}}"></script>
+<script src="js/mfn.menu.js"></script>
+<script src="js/jquery.plugins.js"></script>
+<script src="js/jquery.jplayer.min.js"></script>
+<script src="js/animations/animations.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/email.js"></script>
 
-{{--<script>--}}
-    {{--jQuery(window).load(function() {--}}
-        {{--var retina = window.devicePixelRatio > 1 ? true : false;--}}
-        {{--if (retina) {--}}
-            {{--var retinaEl = jQuery("#logo img.logo-main");--}}
-            {{--var retinaLogoW = retinaEl.width();--}}
-            {{--var retinaLogoH = retinaEl.height();--}}
-            {{--retinaEl.attr("src", "a2b").width(retinaLogoW).height(retinaLogoH);--}}
-            {{--var stickyEl = jQuery("#logo img.logo-sticky");--}}
-            {{--var stickyLogoW = stickyEl.width();--}}
-            {{--var stickyLogoH = stickyEl.height();--}}
-            {{--stickyEl.attr("src", "a2b.png").width(stickyLogoW).height(stickyLogoH);--}}
-        {{--}--}}
-    {{--});--}}
-{{--</script>--}}
+
+
+<script>
+    jQuery(window).load(function() {
+        var retina = window.devicePixelRatio > 1 ? true : false;
+        if (retina) {
+            var retinaEl = jQuery("#logo img.logo-main");
+            var retinaLogoW = retinaEl.width();
+            var retinaLogoH = retinaEl.height();
+            retinaEl.attr("src", "images/retina-university.png").width(retinaLogoW).height(retinaLogoH);
+            var stickyEl = jQuery("#logo img.logo-sticky");
+            var stickyLogoW = stickyEl.width();
+            var stickyLogoH = stickyEl.height();
+            stickyEl.attr("src", "images/retina-university.png").width(stickyLogoW).height(stickyLogoH);
+        }
+    });
+</script>
 
 </body>
 @yield('scripts')

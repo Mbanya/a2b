@@ -226,166 +226,120 @@
                                 <!-- One full width row-->
                                 <div class="column one column_column">
                                     <div class="column_attr ">
-                                        <h5 class="flv_style_4">Pricing boxes</h5>
+                                        <h1 class="flv_style_4">Pricing Plans</h1>
                                     </div>
                                 </div>
                                 <!-- One Fourth (1/4) Column -->
-                                <div class="column one-fourth column_pricing_item">
+                                <div class="column one-third column_pricing_item">
                                     <div class="pricing-box pricing-box-box">
                                         <div class="plan-header">
-                                            <div class="image"><img src="univeristy/images/home_hosting_pricing_pic_1.png" alt="Basic">
+                                            <div class="image"><img src="university/images/home_hosting_pricing_pic_1.png" alt="Ivory">
                                             </div>
-                                            <h2>Basic</h2>
+                                            <h2>Ivory</h2>
                                             <div class="price">
-                                                <sup class="currency">$</sup><span>12</span><sup class="period">/ monthly</sup>
+                                                <sup class="currency">$</sup><span>99</span><sup class="period">/ per Internship</sup>
                                             </div>
                                             <hr class="hr_color">
-                                            <p class="subtitle">
-                                                <span class="big">Vitae adipiscing turpis. Aenean ligula nibh, molestie id vivide.</span>
-                                            </p>
+
                                         </div>
                                         <div class="plan-inside">
                                             <ul>
-                                                <li>
-                                                    <strong>10GB</strong> Space amount
+                                                <li style="text-align: left">
+                                                    <strong> 1 Month</strong> Internship
                                                 </li>
-                                                <li>
-                                                    <strong>Unlimited</strong> users
+                                                <li style="text-align: left">
+                                                    <strong>1 Month </strong> Mentoring & Coaching
                                                 </li>
-                                                <li>
-                                                    <strong> 30GB</strong> Bandwidth
-                                                </li>
-                                                <li>
-                                                    Enhanced Security
-                                                </li>
-                                                <li>
-                                                    <strong>20</strong> MySQL Databases
+                                                <li style="text-align: left">
+                                                    <strong> Standard </strong> Performance Tracking
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="plan-footer">
-                                            <a href="#" class="button button_left button_theme button_js kill_the_icon"><span class="button_icon"><i class="icon-basket"></i></span><span class="button_label">Sign up now</span></a>
+                                            <a href="#" class="button button_left button_theme button_js kill_the_icon"><span class="button_icon"><i class="fa fa-share"></i></span><span class="button_label">Apply now</span></a>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- One Fourth (1/4) Column -->
-                                <div class="column one-fourth column_pricing_item">
+                                <div class="column one-third column_pricing_item">
                                     <div class="pricing-box pricing-box-featured pricing-box-box">
                                         <div class="plan-header">
-                                            <div class="image"><img src="univeristy/images/home_hosting_pricing_pic_2.png" alt="Standard">
+                                            <div class="image"><img src="university/images/home_hosting_pricing_pic_2.png" alt="Gold">
                                             </div>
-                                            <h2>Standard</h2>
+                                            <h2>Gold</h2>
                                             <div class="price">
-                                                <sup class="currency">$</sup><span>29</span><sup class="period">/ monthly</sup>
+                                                <sup class="currency">$</sup><span>199</span><sup class="period">/Per Internship</sup>
                                             </div>
                                             <hr class="hr_color">
-                                            <p class="subtitle">
-                                                <span class="big">Vitae adipiscing turpis. Aenean ligula nibh, molestie id vivide.</span>
-                                            </p>
+
                                         </div>
                                         <div class="plan-inside">
                                             <ul>
-                                                <li>
-                                                    <strong>10GB</strong> Space amount
+                                                <li style="text-align: left">
+                                                    <strong>1-3</strong> months internship
                                                 </li>
-                                                <li>
-                                                    <strong>Unlimited</strong> users
+                                                <li style="text-align: left">
+                                                    <strong>1 professional</strong> training (Basic + Intermediate)
                                                 </li>
-                                                <li>
-                                                    <strong> 30GB</strong> Bandwidth
+                                                <li style="text-align: left">
+                                                    <strong>  3 months </strong> Mentoring & Coaching
                                                 </li>
-                                                <li>
-                                                    Enhanced Security
+                                                <li style="text-align: left">
+                                                    Performance Tracking and Reports
                                                 </li>
-                                                <li>
-                                                    <strong>20</strong> MySQL Databases
+                                                <li style="text-align: left">
+                                                    Standard Membership to A2B Resource Pool
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="plan-footer">
-                                            <a href="#" class="button button_left button_theme button_js kill_the_icon"><span class="button_icon"><i class="icon-basket"></i></span><span class="button_label">Sign up now</span></a>
+                                            <a href="#" class="button button_left button_theme button_js kill_the_icon"><span class="button_icon"><i class="fa fa-share"></i></span><span class="button_label">Apply now</span></a>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- One Fourth (1/4) Column -->
-                                <div class="column one-fourth column_pricing_item">
+                                <div class="column one-third column_pricing_item">
                                     <div class="pricing-box pricing-box-box">
                                         <div class="plan-header">
-                                            <div class="image"><img src="univeristy/images/home_hosting_pricing_pic_3.png" alt="Business">
+                                            <div class="image"><img src="university/images/home_hosting_pricing_pic_3.png" alt="Platinum">
                                             </div>
-                                            <h2>Business</h2>
+                                            <h2>Platinum</h2>
                                             <div class="price">
-                                                <sup class="currency">$</sup><span>39</span><sup class="period">/ monthly</sup>
+                                                <sup class="currency">$</sup><span>399</span><sup class="period">/ Per Internship</sup>
                                             </div>
                                             <hr class="hr_color">
-                                            <p class="subtitle">
-                                                <span class="big">Vitae adipiscing turpis. Aenean ligula nibh, molestie id vivide.</span>
-                                            </p>
+
                                         </div>
                                         <div class="plan-inside">
                                             <ul>
-                                                <li>
-                                                    <strong>10GB</strong> Space amount
+
+                                                <li style="text-align: left">
+                                                    <strong>3-6 </strong> months internship
                                                 </li>
-                                                <li>
-                                                    <strong>Unlimited</strong> users
+                                                <li style="text-align: left">
+                                                    <strong>2 professional</strong> trainings (Basic + Intermediate + Advanced)
                                                 </li>
-                                                <li>
-                                                    <strong> 30GB</strong> Bandwidth
+                                                <li style="text-align: left">
+                                                    <strong>  6 months</strong> Mentoring & Coaching
                                                 </li>
-                                                <li>
-                                                    Enhanced Security
+                                                <li style="text-align: left">
+                                                    Advanced Performance Tracking and Reports
                                                 </li>
-                                                <li>
-                                                    <strong>20</strong> MySQL Databases
+                                                <li style="text-align: left">
+                                                    Advanced Membership to A2B Resource Pool
+                                                </li>
+                                                <li style="text-align: left">
+                                                    Access to Intern Plus
                                                 </li>
 
                                             </ul>
                                         </div>
                                         <div class="plan-footer">
-                                            <a href="#" class="button button_left button_theme button_js kill_the_icon"><span class="button_icon"><i class="icon-basket"></i></span><span class="button_label">Sign up now</span></a>
+                                            <a href="#" class="button button_left button_theme button_js kill_the_icon"><span class="button_icon"><i class="fa fa-share"></i></span><span class="button_label">Apply now</span></a>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- One Fourth (1/4) Column -->
-                                <div class="column one-fourth column_pricing_item">
-                                    <div class="pricing-box pricing-box-box">
-                                        <div class="plan-header">
-                                            <div class="image"><img src="univeristy/images/home_hosting_pricing_pic_4.png" alt="Professional">
-                                            </div>
-                                            <h2>Professional</h2>
-                                            <div class="price">
-                                                <sup class="currency">$</sup><span>49</span><sup class="period">/ monthly</sup>
-                                            </div>
-                                            <hr class="hr_color">
-                                            <p class="subtitle">
-                                                <span class="big">Vitae adipiscing turpis. Aenean ligula nibh, molestie id vivide.</span>
-                                            </p>
-                                        </div>
-                                        <div class="plan-inside">
-                                            <ul>
-                                                <li>
-                                                    <strong>10GB</strong> Space amount
-                                                </li>
-                                                <li>
-                                                    <strong>Unlimited</strong> users
-                                                </li>
-                                                <li>
-                                                    <strong> 30GB</strong> Bandwidth
-                                                </li>
-                                                <li>
-                                                    Enhanced Security
-                                                </li>
-                                                <li>
-                                                    <strong>20</strong> MySQL Databases
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="plan-footer">
-                                            <a href="#" class="button button_left button_theme button_js kill_the_icon"><span class="button_icon"><i class="icon-basket"></i></span><span class="button_label">Sign up now</span></a>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>

@@ -13,17 +13,35 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <meta name="msapplication-TileColor" content="#ffbe02">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffbe02">
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
 
     <!-- FONTS -->
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700'>
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:100,300,400,400italic,500,700'>
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+
 
     <!-- CSS -->
     <link rel='stylesheet' href='{{asset('css/global.css')}}'>
@@ -49,7 +67,7 @@
                         <div class="top_bar_left clearfix">
                             <!-- Logo-->
                             <div class="logo">
-                                <a id="logo" href="{{url('/')}}" title="a2b"><img class="scale-with-grid" src="{{asset('a2b.png')}}" alt="a2b" /> </a>
+                                <a id="logo" href="{{url('/')}}" title="a2b"><img class="scale-with-grid" src="{{asset('university/images/logo.png')}}" alt="a2b" /> </a>
                             </div>
                             <!-- Main menu-->
                             <div class="menu_wrapper">
@@ -82,16 +100,38 @@
                                         </li>
 
                                         <li>
-                                            <a href="{{url('apply')}}"><span>Apply</span></a>
+                                            <a href="{{url('apply/create')}}"><span>Apply</span></a>
                                         </li>
                                         <li>
-                                            <a href="{{url('news')}}"><span>News &#038; Events</span></a>
+                                            <a disabled><span>Employers</span></a>
+                                            <ul class="sub-menu">
+                                                <li>
+                                                    <a href="{{route('employer.create')}}"><span>Request an Intern</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{route('employers')}}"><span>What you Get</span></a>
+                                                </li>
+                                            </ul>
+
+                                        </li>
+
+                                        <li>
+                                            <a disabled><span>News & Events</span></a>
+                                            <ul class="sub-menu">
+                                                <li>
+                                                    <a href="{{url('/')}}"><span>News &#038; Events</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{url('/')}}"><span>Funded internships</span></a>
+                                                </li>
+                                            </ul>
+
                                         </li>
                                         <li>
                                             <a href="{{route('contact')}}"><span>Contact</span></a>
                                         </li>
                                     </ul>
-                                </nav><a class="responsive-menu-toggle" href="#"><i class="icon-menu"></i></a>                            </div>
+                                </nav><a class="responsive-menu-toggle" href="#"><i class="icon-menu"></i></a>
                             <!-- Header Searchform area-->
                             <div class="search_wrapper">
                                 <form method="get" action="#">
@@ -111,22 +151,7 @@
             </div>
         </header>
         <!--Subheader area - only for certain pages -->
-        <div id="Subheader">
-            <div class="container">
-                <div class="column one">
-                    <h1 class="title">Contact</h1>
-                    <!--BreadCrumbs area-->
-                    <ul class="breadcrumbs">
-                        <li>
-                            <a href="{{url('/')}}">Home</a><span><i class="icon-right-open"></i></span>
-                        </li>
-                        <li>
-                            <a href="{{url('contact')}}">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+
         @yield('header')
     </div>
     @yield('content')
@@ -182,6 +207,131 @@
         }
     });
 </script>
+        <script>
+            $(document).ready(function() {
+                $('#contact_form').bootstrapValidator({
+                    // To use feedback icons, ensure that you use Bootstrap v3.1.0 or later
+                    feedbackIcons: {
+                        valid: 'glyphicon glyphicon-ok',
+                        invalid: 'glyphicon glyphicon-remove',
+                        validating: 'glyphicon glyphicon-refresh'
+                    },
+                    fields: {
+                        first_name: {
+                            validators: {
+                                stringLength: {
+                                    min: 2,
+                                },
+                                notEmpty: {
+                                    message: 'Please supply your first name'
+                                }
+                            }
+                        },
+                        last_name: {
+                            validators: {
+                                stringLength: {
+                                    min: 2,
+                                },
+                                notEmpty: {
+                                    message: 'Please supply your last name'
+                                }
+                            }
+                        },
+                        email: {
+                            validators: {
+                                notEmpty: {
+                                    message: 'Please supply your email address'
+                                },
+                                emailAddress: {
+                                    message: 'Please supply a valid email address'
+                                }
+                            }
+                        },
+                        phone: {
+                            validators: {
+                                notEmpty: {
+                                    message: 'Please supply your phone number'
+                                },
+                                phone: {
+                                    country: 'US',
+                                    message: 'Please supply a vaild phone number with area code'
+                                }
+                            }
+                        },
+                        address: {
+                            validators: {
+                                stringLength: {
+                                    min: 8,
+                                },
+                                notEmpty: {
+                                    message: 'Please supply your street address'
+                                }
+                            }
+                        },
+                        city: {
+                            validators: {
+                                stringLength: {
+                                    min: 4,
+                                },
+                                notEmpty: {
+                                    message: 'Please supply your city'
+                                }
+                            }
+                        },
+                        state: {
+                            validators: {
+                                notEmpty: {
+                                    message: 'Please select your state'
+                                }
+                            }
+                        },
+                        zip: {
+                            validators: {
+                                notEmpty: {
+                                    message: 'Please supply your zip code'
+                                },
+                                zipCode: {
+                                    country: 'US',
+                                    message: 'Please supply a vaild zip code'
+                                }
+                            }
+                        },
+                        comment: {
+                            validators: {
+                                stringLength: {
+                                    min: 10,
+                                    max: 200,
+                                    message:'Please enter at least 10 characters and no more than 200'
+                                },
+                                notEmpty: {
+                                    message: 'Please supply a description of your project'
+                                }
+                            }
+                        }
+                    }
+                })
+                    .on('success.form.bv', function(e) {
+                        $('#success_message').slideDown({ opacity: "show" }, "slow") // Do something ...
+                        $('#contact_form').data('bootstrapValidator').resetForm();
+
+                        // Prevent form submission
+                        e.preventDefault();
+
+                        // Get the form instance
+                        var $form = $(e.target);
+
+                        // Get the BootstrapValidator instance
+                        var bv = $form.data('bootstrapValidator');
+
+                        // Use Ajax to submit form data
+                        $.post($form.attr('action'), $form.serialize(), function(result) {
+                            console.log(result);
+                        }, 'json');
+                    });
+            });
+
+
+        </script>
 
 </body>
 @yield('scripts')

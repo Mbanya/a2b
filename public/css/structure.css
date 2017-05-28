@@ -5758,7 +5758,7 @@ html,body {
     /* Header */
     #Top_bar #menu {
         display: none;
-        height: auto;
+        height: 100%;
         width: 300px;
         bottom: auto;
         top: 100%;
@@ -7037,8 +7037,8 @@ body {
     }
 
     .how_it_works .image img {
-        max-width: 116px !important;
-        max-height: 116px !important;
+        max-width: 100% !important;
+        /*max-height: 116px !important;*/
     }
 
     .how_it_works .image .number,.with_aside .how_it_works .image .number {

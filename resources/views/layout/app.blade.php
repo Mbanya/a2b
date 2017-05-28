@@ -14,12 +14,30 @@
     <title>A2B Partners in Growth</title>
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta name="msapplication-TileColor" content="#ffbe02">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffbe02">
 
     <!-- Mobile Specific Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+
 
     <!-- FONTS -->
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700'>
@@ -52,7 +70,7 @@
                         <div class="top_bar_left clearfix">
                             <!-- Logo-->
                             <div class="logo">
-                                <a id="logo" class="logo" href="{{url('/')}}" title="A2B"><img  src="{{asset('a2b.png')}}" alt="A2B Partners in Growth" /> </a>
+                                <a id="logo" class="logo" href="{{url('/')}}" title="A2B"><img class="scale-with-grid" src="{{asset('university/images/logo.png')}}" alt="A2B Partners in Growth" /> </a>
                             </div>
                             <!-- Main menu-->
                             <div class="menu_wrapper">
@@ -86,10 +104,32 @@
                                         </li>
 
                                         <li>
-                                            <a href="{{url('')}}"><span>Apply</span></a>
+                                            <a href="{{url('apply/create')}}"><span>Apply</span></a>
                                         </li>
                                         <li>
-                                            <a href="{{url('')}}"><span>News &#038; Events</span></a>
+                                            <a disabled><span>Employers</span></a>
+                                            <ul class="sub-menu">
+                                                <li>
+                                                    <a href="{{route('employer.create')}}"><span>Request an Intern</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{route('employers')}}"><span>What you Get</span></a>
+                                                </li>
+                                            </ul>
+
+                                        </li>
+
+                                        <li>
+                                            <a disabled><span>News & Events</span></a>
+                                            <ul class="sub-menu">
+                                                <li>
+                                                    <a href="{{url('/')}}"><span>News &#038; Events</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{url('/')}}"><span>Funded internships</span></a>
+                                                </li>
+                                            </ul>
+
                                         </li>
                                         <li>
                                             <a href="{{route('contact')}}"><span>Contact</span></a>
@@ -124,7 +164,7 @@
                         </h1>
                         <p style="font-size: 20px; "><strong>We are creating opportunities for the dynamic and enterprising African spirit</strong></p>
                         <div style="text-align: center; clear: both; padding-top:15px; border-top: 1px solid rgba(0,0,0,.07);">
-                            <a class="button button_yellow button_js" href=""><span class="button_label">Apply Today</span></a>
+                            <a class="button button_yellow button_js" href="{{url('apply/create')}}"><span class="button_label">Apply Today</span></a>
                         </div>
                     </div>
                 </div>
@@ -243,11 +283,11 @@
             var retinaEl = jQuery("#logo img.logo-main");
             var retinaLogoW = retinaEl.width();
             var retinaLogoH = retinaEl.height();
-            retinaEl.attr("src", "a2b").width(retinaLogoW).height(retinaLogoH);
+            retinaEl.attr("src", "university/images/logo.png").width(retinaLogoW).height(retinaLogoH);
             var stickyEl = jQuery("#logo img.logo-sticky");
             var stickyLogoW = stickyEl.width();
             var stickyLogoH = stickyEl.height();
-            stickyEl.attr("src", "a2b.png").width(stickyLogoW).height(stickyLogoH);
+            stickyEl.attr("src", "university/images/logo.png").width(stickyLogoW).height(stickyLogoH);
         }
     });
 </script>

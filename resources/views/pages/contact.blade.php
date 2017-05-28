@@ -3,6 +3,22 @@
     <title>Contact</title>
     @endsection
 @section('header')
+    <div id="Subheader">
+        <div class="container">
+            <div class="column one">
+                <h1 class="title">Contact</h1>
+                <!--BreadCrumbs area-->
+                <ul class="breadcrumbs">
+                    <li>
+                        <a href="{{url('/')}}">Home</a><span><i class="icon-right-open"></i></span>
+                    </li>
+                    <li>
+                        <a href="{{url('contact')}}">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
     @endsection
 @section('content')
     <!-- Main Content -->
