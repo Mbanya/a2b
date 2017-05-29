@@ -29,10 +29,6 @@ Route::resource('apply','ApplyController');
 Route::resource('employer','EmployersController');
 Route::resource('internships','InternshipsController');
 
-
-
-
-
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });

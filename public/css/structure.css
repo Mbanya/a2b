@@ -23,12 +23,12 @@
 /* #Base 1200 Grid
 ================================================== */
 body {
-    min-width: 1240px;
+    max-width: 100%;
     padding: 25px 0;
 }
 
 #Wrapper {
-    width: 1240px;
+    width: 100%;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -38,14 +38,14 @@ body {
 }
 
 .layout-full-width #Wrapper {
-    width: 100% !important;
+    max-width:  100% !important;
     margin: 0 !important;
 }
 
 /* #Content
 =============================== */
 #Content {
-    width: 100%;
+    max-width: 100%;
 }
 
 body:not(.template-slider) #Content {
@@ -57,7 +57,7 @@ body:not(.template-slider) #Content {
 }
 
 .section_wrapper,.container {
-    width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     position: relative;
 }
@@ -129,7 +129,7 @@ body:not(.template-slider) #Content {
 
 /* .with_aside */
 .with_aside .content_wrapper {
-    width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -331,7 +331,7 @@ body:not(.template-slider) #Content {
 }
 
 .rev_slider iframe {
-    max-width: 1220px;
+    max-width: 100%;
 }
 
 .rev_slider ul {
@@ -585,7 +585,7 @@ body.nice-scroll:not(.layout-boxed) {
     height: 7px;
     left: 0;
     position: absolute;
-    width: 100%;
+    max-width: 100%;
 }
 
 /* Arrows */
@@ -630,7 +630,7 @@ body.nice-scroll:not(.layout-boxed) {
 }
 
 .tparrows.round:hover:after {
-    width: 100%;
+    max-width: 100%;
 }
 
 .tparrows.default.preview1,.tparrows.default.preview4 {
@@ -643,7 +643,7 @@ body.nice-scroll:not(.layout-boxed) {
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
+    max-width: 100%;
     z-index: 800;
 }
 
@@ -1145,7 +1145,7 @@ body:not(.template-slider) #Header_wrapper.bg-fixed {
 }
 
 body:not(.template-slider) #Header {
-    min-height: 250px;
+    max-width: 100%;
 }
 
 .header-transparent .header_placeholder,.header-empty .header_placeholder {
@@ -1159,11 +1159,11 @@ body.minimalist-header:not(.template-slider) #Header {
 }
 
 body.minimalist-header.header-modern:not(.template-slider) #Header {
-    min-height: 147px;
+    max-width: 100%;
 }
 
 body.minimalist-header.header-simple:not(.template-slider) #Header {
-    min-height: 130px;
+    max-width: 100%;
 }
 
 body.minimalist-header.header-stack:not(.template-slider) #Header {
@@ -1314,7 +1314,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 
 /* Top bar width */
 #Top_bar .top_bar_left {
-    width: 990px;
+    max-width: 100%;
 }
 
 /* Logo */
@@ -1868,7 +1868,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 @media only screen and (min-width: 768px) {
     .header-fixed #Top_bar {
         position: fixed;
-        width: 100%;
+        max-width: 100%;
         left: 0;
         top: 0 !important;
         height: 60px;
@@ -2350,7 +2350,7 @@ body.header-stack:not(.template-slider) #Header {
 
 #overlay-menu {
     position: absolute;
-    width: 700px;
+    max-width: 100%;
     left: 50%;
     margin-left: -350px;
     top: 50%;
