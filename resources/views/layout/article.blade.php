@@ -49,7 +49,8 @@
 
     @yield('assets')
 </head>
-<body class="blog with_aside aside_right layout-full-width header-classic minimalist-header sticky-header sticky-white subheader-title-left no-content-padding">
+
+<body class="single single-post single-format-standard with_aside aside_right layout-full-width header-classic minimalist-header sticky-header sticky-white subheader-title-left">
 <!-- Main Theme Wrapper -->
 <div id="Wrapper">
     <!-- Header Wrapper -->
@@ -154,57 +155,55 @@
         @yield('header')
     </div>
 
-        @yield('content')
+    @yield('content')
 
-    <footer id="Footer" class="clearfix">
-        <!-- Footer copyright-->
-        <div class="footer_copy">
-            <div class="container">
-                <div class="column one">
-                    <a id="back_to_top" href="#" class="button button_left button_js"><span class="button_icon"><i class="icon-up-open-big"></i></span></a>
-                    <div class="copyright">
-                        &copy; <?php echo date('Y')?> A2B powered by <a target="_blank" rel="nofollow" href="http://worthafrica.org"> Worthafrica Group</a>
+<!-- Footer-->
+        <footer id="Footer" class="clearfix">
+            <!-- Footer copyright-->
+            <div class="footer_copy">
+                <div class="container">
+                    <div class="column one">
+                        <a id="back_to_top" href="#" class="button button_left button_js"><span class="button_icon"><i class="icon-up-open-big"></i></span></a>
+                        <div class="copyright">
+                            &copy; <?php echo date('Y')?> A2B powered by <a target="_blank" rel="nofollow" href="http://worthafrica.org"> Worthafrica Group</a>
+                        </div>
+                        <!--Social info area-->
+                        <ul class="social">
+                            <li class="facebook">
+                                <a href="#" title="Facebook"><i class="icon-facebook"></i></a>
+                            </li>
+                            <li class="twitter">
+                                <a href="#" title="Twitter"><i class="icon-twitter"></i></a>
+                            </li>
+
+                        </ul>
                     </div>
-                    <!--Social info area-->
-                    <ul class="social">
-                        <li class="facebook">
-                            <a href="#" title="Facebook"><i class="icon-facebook"></i></a>
-                        </li>
-                        <li class="twitter">
-                            <a href="#" title="Twitter"><i class="icon-twitter"></i></a>
-                        </li>
-
-                    </ul>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
     @yield('footer')
 </div>
-    <!-- JS -->
-    <script src="../../js/jquery-2.1.4.min.js"></script>
 
-    <script src="../../js/mfn.menu.js"></script>
-    <script src="../../js/jquery.plugins.js"></script>
-    <script src="../../js/jquery.jplayer.min.js"></script>
-    <script src="../../js/animations/animations.js"></script>
-    <script src="../../js/scripts.js"></script>
+<!-- JS -->
+<script src="{{asset('js/jquery-2.1.4.min.js')}}"></script>
 
-    <script>
-        jQuery(window).load(function() {
-            var retina = window.devicePixelRatio > 1 ? true : false;
-            if (retina) {
-                var retinaEl = jQuery("#logo img.logo-main");
-                var retinaLogoW = retinaEl.width();
-                var retinaLogoH = retinaEl.height();
-                retinaEl.attr("src", "images/retina-university.png").width(retinaLogoW).height(retinaLogoH);
-                var stickyEl = jQuery("#logo img.logo-sticky");
-                var stickyLogoW = stickyEl.width();
-                var stickyLogoH = stickyEl.height();
-                stickyEl.attr("src", "images/retina-university.png").width(stickyLogoW).height(stickyLogoH);
-            }
-        });
-    </script>
+<script src="{{asset('js/mfn.menu.js')}}"></script>
+<script src="{{asset('js/jquery.plugins.js')}}"></script>
+<script src="{{asset('js/jquery.jplayer.min.js')}}"></script>
+<script src="{{asset('js/animations/animations.js')}}"></script>
+<script src="{{asset('js/scripts.js')}}"></script>
+
+<script>
+    jQuery(window).load(function() {
+        var retina = window.devicePixelRatio > 1 ? true : false;
+        if (retina) {
+            var retinaEl = jQuery("#logo img");
+            var retinaLogoW = retinaEl.width();
+            var retinaLogoH = retinaEl.height();
+            retinaEl.attr("src", "images/retina-university.png").width(retinaLogoW).height(retinaLogoH)
+        }
+    });
+</script>
 
 </body>
 @yield('scripts')

@@ -19,6 +19,7 @@ class CreateApplyTable extends Migration
             $table->string('last_name');
             $table->integer('phone_number');
             $table->string('email');
+            $table->string('identification');
             $table->string('location');
             $table->string('college');
             $table->string('education');

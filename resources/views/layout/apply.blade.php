@@ -37,6 +37,8 @@
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css'>
 
+
+
     <!-- CSS -->
     <link rel='stylesheet' href='{{asset('css/global.css')}}'>
     <link rel='stylesheet' href='{{asset('university/css/structure.css')}}'>
@@ -70,7 +72,7 @@
                                 <nav id="menu">
 
                                     <ul id="menu-main-menu" class="menu">
-                                        <li class="current_page_item">
+                                        <li >
                                             <a href="{{url('/')}}"><span>Home</span></a>
                                         </li>
                                         <li>
@@ -115,10 +117,10 @@
                                             <a disabled><span>News & Events</span></a>
                                             <ul class="sub-menu">
                                                 <li>
-                                                    <a href="{{url('/')}}"><span>News &#038; Events</span></a>
+                                                    <a href="{{route('news.index')}}"><span>News &#038; Events</span></a>
                                                 </li>
                                                 <li>
-                                                    <a href="{{url('/')}}"><span>Funded internships</span></a>
+                                                    <a href=""><span>Funded internships</span></a>
                                                 </li>
                                             </ul>
 
@@ -177,32 +179,31 @@
     @yield('footer')
 </div>
 <!-- JS -->
-<script src="js/jquery-2.1.4.min.js"></script>
+<script src="{{asset('js/jquery-2.1.4.min.js')}}"></script>
 
-<script src="js/mfn.menu.js"></script>
-<script src="js/jquery.plugins.js"></script>
-<script src="js/jquery.jplayer.min.js"></script>
-<script src="js/animations/animations.js"></script>
-<script src="js/scripts.js"></script>
-<script src="js/email.js"></script>
+<script src="{{asset('js/mfn.menu.js')}}"></script>
+<script src="{{asset('js/jquery.plugins.js')}}"></script>
+<script src="{{asset('js/jquery.jplayer.min.js')}}"></script>
+<script src="{{asset('js/animations/animations.js')}}"></script>
+<script src="{{asset('js/scripts.js')}}"></script>
+<script src="{{asset('js/email.js')}}"></script>
 
 
-
-<script>
-    jQuery(window).load(function() {
-        var retina = window.devicePixelRatio > 1 ? true : false;
-        if (retina) {
-            var retinaEl = jQuery("#logo img.logo-main");
-            var retinaLogoW = retinaEl.width();
-            var retinaLogoH = retinaEl.height();
-            retinaEl.attr("src", "images/retina-university.png").width(retinaLogoW).height(retinaLogoH);
-            var stickyEl = jQuery("#logo img.logo-sticky");
-            var stickyLogoW = stickyEl.width();
-            var stickyLogoH = stickyEl.height();
-            stickyEl.attr("src", "images/retina-university.png").width(stickyLogoW).height(stickyLogoH);
-        }
-    });
-</script>
+{{--<script>--}}
+    {{--jQuery(window).load(function() {--}}
+        {{--var retina = window.devicePixelRatio > 1 ? true : false;--}}
+        {{--if (retina) {--}}
+            {{--var retinaEl = jQuery("#logo img.logo-main");--}}
+            {{--var retinaLogoW = retinaEl.width();--}}
+            {{--var retinaLogoH = retinaEl.height();--}}
+            {{--retinaEl.attr("src", "images/retina-university.png").width(retinaLogoW).height(retinaLogoH);--}}
+            {{--var stickyEl = jQuery("#logo img.logo-sticky");--}}
+            {{--var stickyLogoW = stickyEl.width();--}}
+            {{--var stickyLogoH = stickyEl.height();--}}
+            {{--stickyEl.attr("src", "images/retina-university.png").width(stickyLogoW).height(stickyLogoH);--}}
+        {{--}--}}
+    {{--});--}}
+{{--</script>--}}
 
 </body>
 @yield('scripts')

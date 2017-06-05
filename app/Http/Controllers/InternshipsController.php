@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Internship;
 class InternshipsController extends Controller
 {
     /**
@@ -13,7 +13,8 @@ class InternshipsController extends Controller
      */
     public function index()
     {
-       return view('internships.featured');
+        $internships = Internship::paginate(2);
+       return view('internships.featured')->withInternships($internships);
     }
 
     /**
@@ -23,6 +24,7 @@ class InternshipsController extends Controller
      */
     public function create()
     {
+
         return view('internships.create');
     }
 

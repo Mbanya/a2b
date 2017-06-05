@@ -8,7 +8,7 @@ class Apply extends Model
 {
     protected $fillable =[
 
-        'first_name','last_name','email',
+        'first_name','last_name','email','identification',
         'phone_number','location','college','education','graduation_year',
         'graduation_month','interest','programme'
     ];

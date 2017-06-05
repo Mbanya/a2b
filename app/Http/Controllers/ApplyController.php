@@ -44,6 +44,7 @@ class ApplyController extends Controller
             'first_name'=>$request->get('first_name'),
             'last_name'=>$request->get('last_name'),
             'email'=>$request->get('email'),
+            'identification'=>$request->get('identification'),
             'phone_number'=>$request->get('phone_number'),
             'location'=>$request->get('location'),
             'college'=>$request->get('college'),

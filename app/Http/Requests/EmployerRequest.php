@@ -30,8 +30,11 @@ class EmployerRequest extends FormRequest
             'email'=>'required|email',
             'title'=>'required',
             'job_description'=>'max:255',
+            'requirements'=>'max:255',
+            'start_period'=>'date:required',
+            'end_period'=>'date:required',
             'department'=>'required',
-            'period'=>'required'
+            'duration'=>'required'
         ];
     }
 }

@@ -74,7 +74,7 @@
                                 <nav id="menu">
 
                                     <ul id="menu-main-menu" class="menu">
-                                        <li class="current_page_item">
+                                        <li>
                                             <a href="{{url('/')}}"><span>Home</span></a>
                                         </li>
                                         <li>
@@ -119,10 +119,10 @@
                                             <a disabled><span>News & Events</span></a>
                                             <ul class="sub-menu">
                                                 <li>
-                                                    <a href="{{url('/')}}"><span>News &#038; Events</span></a>
+                                                    <a href="{{route('news.index')}}"><span>News &#038; Events</span></a>
                                                 </li>
                                                 <li>
-                                                    <a href="{{url('/')}}"><span>Funded internships</span></a>
+                                                    <a href=""><span>Funded internships</span></a>
                                                 </li>
                                             </ul>
 

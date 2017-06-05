@@ -27,6 +27,7 @@ class ApplyRequest extends FormRequest
             'first_name'=>'required',
             'last_name'=>'required',
             'email'=>'required|email',
+            'identification'=>'required',
             'phone_number'=>'required|max:12',
             'location'=>'required',
             'college'=>'required',

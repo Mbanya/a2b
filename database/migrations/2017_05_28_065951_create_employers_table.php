@@ -20,9 +20,12 @@ class CreateEmployersTable extends Migration
             $table->integer('phone');
             $table->string('email');
             $table->string('title');
-            $table->longText('description');
             $table->string('department');
-            $table->string('period');
+            $table->longText('description');
+            $table->longText('requirements');
+            $table->string('duration');
+            $table->date('start_period');
+            $table->date('end_period');
             $table->timestamps();
         });
     }

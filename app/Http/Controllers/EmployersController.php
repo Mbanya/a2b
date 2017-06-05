@@ -42,9 +42,12 @@ class EmployersController extends Controller
             'phone'=>$request->get('phone'),
             'email'=>$request->get('email'),
             'title'=>$request->get('title'),
-            'description'=>$request->get('description'),
             'department'=>$request->get('department'),
-            'period'=>$request->get('period'),
+            'description'=>$request->get('description'),
+            'requirements'=>$request->get('requirements'),
+            'duration'=>$request->get('duration'),
+            'start_period'=>$request->get('start_period'),
+            'end_period'=>$request->get('end_period')
         ));
         $employer->save();
         return redirect(route('employer.create'))->with(['message'=>'Your Request for an intern Was Recieved. A2B will review and get back to you as soon as possible']);

@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Post;
 
-class PostsController extends Controller
+class PostController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +14,8 @@ class PostsController extends Controller
      */
     public function index()
     {
-        $post = Post::paginate(5);
-        return view('pages.news-events',['post' =>$post]);
+        $posts =Post::Paginate(2);
+        return view('news.index')->withPosts($posts);
     }
 
     /**
@@ -45,10 +45,10 @@ class PostsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($slug)
+    public function show($id)
     {
-        $post= Post::where('slug',$slug)->first();
-        return view('pages.article',['post' =>$post]);
+        $post =Post::find($id);
+        return view('news.show')->with('post',$post);
     }
 
     /**

@@ -25,161 +25,126 @@
     <div id="Content">
         <div class="content_wrapper clearfix">
             <div class="sections_group">
-                <div class="extra_content">
-                    <div class="section the_content">
-                        <div class="section_wrapper">
-                            <div class="the_content_wrapper"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="section">
-                    <div class="section_wrapper clearfix">
-                        <!-- One full width row-->
-                        <div class="column one column_blog">
-                            <div class="blog_wrapper isotope_wrapper">
-                                <div class="posts_group lm_wrapper classic">
-                                    <div class="post-2283 post  format-standard has-post-thumbnail  category-stories tag-design post-item isotope-item clearfix">
-                                        <div class="date_label">
-                                            May 5, 2014
-                                        </div>
-                                        <div class="post-desc-wrapper">
-                                            <div class="post-desc">
-                                                <div class="post-meta clearfix">
-                                                    <div class="author-date">
-                                                        <span class="vcard author post-author"><span class="label">Published by </span><i class="icon-user"></i> <span class="fn"><a href="#">admin</a></span></span><span class="date"><span class="label">at </span><i class="icon-clock"></i> <span class="post-date updated">May 5, 2015</span></span>
-                                                    </div>
-                                                    <div class="category">
-                                                        <span class="cat-btn">Categories <i class="icon-down-dir"></i></span>
-                                                        <div class="cat-wrapper">
-                                                            <ul class="post-categories">
-                                                                <li>
-                                                                    <a href="category-news.html" rel="category tag">News</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="category-stories.html" rel="category tag">Stories</a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="post-title">
-                                                    <h2 class="entry-title"><a href="article-32.html">Pellentes malesuada fames</a></h2>
-                                                </div>
-                                                <div class="post-excerpt">
-                                                    Aenean ligula nunc, accumsan quam, lobortis fringilla, massa. Maecenas pellentesque dolor.
-                                                </div>
-                                                <div class="post-footer">
-                                                    <div class="button-love">
-                                                        <span class="love-text">Do you like it?</span><a href="#" class="mfn-love " data-id="2283"><span class="icons-wrapper"><i class="icon-heart-empty-fa"></i><i class="icon-heart-fa"></i></span><span class="label">5</span></a>
-                                                    </div>
-                                                    <div class="post-links">
-                                                        <i class="icon-comment-empty-fa"></i><a href="article-32.html#comments" class="post-comments">0</a><i class="icon-doc-text"></i><a href="article-32.html" class="post-more">Read more</a>
-                                                    </div>
-                                                </div>
-                                            </div>
+                <div class="entry-content">
+                    <div class="section mcb-section" style="padding-top:20px; padding-bottom:0px;">
+                        <div class="section_wrapper mcb-section-inner">
+                            <div class="wrap mcb-wrap one valign-top clearfix">
+                                <div class="mcb-wrap-inner">
+                                    <div class="column mcb-column one-fourth column_column">
+                                        <div class="column_attr clearfix">
+                                            <span class="single_icon  icon_center themecolor"><i style="font-size: 50px; line-height: 50px; " class="icon-users"></i></span>
                                         </div>
                                     </div>
-                                    <div class="post-2285 post  format-standard has-post-thumbnail  category-stories  post-item isotope-item clearfix">
-                                        <div class="date_label">
-                                            May 4, 2014
-                                        </div>
-                                        <div class="post-desc-wrapper">
-                                            <div class="post-desc">
-                                                <div class="post-meta clearfix">
-                                                    <div class="author-date">
-                                                        <span class="vcard author post-author"><span class="label">Published by </span><i class="icon-user"></i> <span class="fn"><a href="#">admin</a></span></span><span class="date"><span class="label">at </span><i class="icon-clock"></i> <span class="post-date updated">May 4, 2015</span></span>
-                                                    </div>
-                                                    <div class="category">
-                                                        <span class="cat-btn">Categories <i class="icon-down-dir"></i></span>
-                                                        <div class="cat-wrapper">
-                                                            <ul class="post-categories">
-                                                                <li>
-                                                                    <a href="category-news.html" rel="category tag">News</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="category-stories.html" rel="category tag">Stories</a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="post-title">
-                                                    <h2 class="entry-title"><a href="article-32.html">Aenean ligula mol stie viver</a></h2>
-                                                </div>
-                                                <div class="post-excerpt">
-                                                    Duis porttitor vel, eros. Mauris nec adipiscing elit. Nam sed porta eget, neque. Pellentesque fringilla neque quis blandit venenatis.
-                                                </div>
-                                                <div class="post-footer">
-                                                    <div class="button-love">
-                                                        <span class="love-text">Do you like it?</span><a href="#" class="mfn-love " data-id="2285"><span class="icons-wrapper"><i class="icon-heart-empty-fa"></i><i class="icon-heart-fa"></i></span><span class="label">6</span></a>
-                                                    </div>
-                                                    <div class="post-links">
-                                                        <i class="icon-comment-empty-fa"></i><a href="article-32.html#comments" class="post-comments">0</a><i class="icon-doc-text"></i><a href="article-32.html" class="post-more">Read more</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="post-2287 post  format-standard has-post-thumbnail  category-stories post-item isotope-item clearfix">
-                                        <div class="date_label">
-                                            May 3, 2014
-                                        </div>
-                                        <div class="post-desc-wrapper">
-                                            <div class="post-desc">
-                                                <div class="post-meta clearfix">
-                                                    <div class="author-date">
-                                                        <span class="vcard author post-author"><span class="label">Published by </span><i class="icon-user"></i> <span class="fn"><a href="#">admin</a></span></span><span class="date"><span class="label">at </span><i class="icon-clock"></i> <span class="post-date updated">May 3, 2015</span></span>
-                                                    </div>
-                                                    <div class="category">
-                                                        <span class="cat-btn">Categories <i class="icon-down-dir"></i></span>
-                                                        <div class="cat-wrapper">
-                                                            <ul class="post-categories">
-                                                                <li>
-                                                                    <a href="category-stories.html" rel="category tag">Stories</a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="post-title">
-                                                    <h2 class="entry-title"><a href="article-2.html">Vitae adipiscing turpis aenean</a></h2>
-                                                </div>
-                                                <div class="post-excerpt">
-                                                    Lorem ipsum dolor sit amet neque vitae mauris. Etiam malesuada ultricies. Nullam ut nunc odio eget volutpat a, rutrum ac, magna. Nulla facilisi. Nullam justo. Sed [&hellip;]
-                                                </div>
-                                                <div class="post-footer">
-                                                    <div class="button-love">
-                                                        <span class="love-text">Do you like it?</span><a href="#" class="mfn-love " data-id="2287"><span class="icons-wrapper"><i class="icon-heart-empty-fa"></i><i class="icon-heart-fa"></i></span><span class="label">2</span></a>
-                                                    </div>
-                                                    <div class="post-links">
-                                                        <i class="icon-comment-empty-fa"></i><a href="article-2.html#comments" class="post-comments">0</a><i class="icon-doc-text"></i><a href="article-2.html" class="post-more">Read more</a>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                    <div class="column mcb-column three-fourth column_column ">
+                                        <div class="column_attr clearfix">
+                                            <h3>Think you're good enough? Do you like our projects and want to be the part of our team? Just apply for right position!</h3>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- Sidebar area-->
-            <div class="sidebar sidebar-2 four columns">
-                <div class="widget-area clearfix ">
-                    <!-- Search form-->
-                    <aside id="search-2" class="widget widget_search">
-                        <h3>Search</h3>
-                        <form method="get" action="#">
-                            <input type="text" class="field" name="s" placeholder="Enter your search" />
-                            <input type="submit" class="submit" value="Search" />
-                        </form>
-                    </aside>
+                    <div class="section" id="accordion flv_sections_16">
+                        <div class="section_wrapper clearfix">
+                            <div class="items_group clearfix">
+
+                                <div class="column one column_column">
+                                    <div class="column_attr ">
+                                        <h5 class="flv_style_4">Internship Opprotunities</h5>
+                                    </div>
+                                </div>
+                                <!-- One Second (1/2) Column -->
+                                @foreach($internships as $internship)
+                                <div class="column column one column_accordion">
+                                    <div class="accordion">
+                                        <div class="mfn-acc accordion_wrapper open1st">
+                                            <div class="question">
+                                                <div class="title">
+                                                    <div class="wrap mcb-wrap one-fourth  valign-top clearfix">
+                                                        <div class="mcb-wrap-inner">
+                                                            <div class="column mcb-column one column_column">
+                                                                <div class="column_attr clearfix">
+                                                                    <h4 style="margin-bottom: 5px;">{{$internship->job_title}}</h4>
+                                                                    <strong>{{$internship->company_name}}</strong>
+                                                                    <p class="big">
+                                                                       {{$internship->location}}
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="answer" style="display: none;">
+                                                    <div class="wrap mcb-wrap three-fourth  column-margin-20px valign-top clearfix">
+                                                        <div class="mcb-wrap-inner">
+                                                            <div class="column mcb-column one column_column">
+
+                                                            </div>
+                                                            <div class="column mcb-column one column_divider">
+                                                                <div class="hr_dots" style="margin: 0 auto 15px;">
+                                                                    <span></span><span></span><span></span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="column_attr clearfix">
+                                                                <p class="big">
+                                                                    {{$internship->description}}
+                                                                </p>
+                                                            </div>
+                                                            <div class="column mcb-column one-second column_column">
+                                                                <div class="column_attr clearfix">
+                                                                    <h5>Deadline:</h5>
+                                                                    <ul class="list_mixed">
+                                                                        <li class="list_check">
+                                                                            {{$internship->application_deadline}}
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="column mcb-column one-second column_column">
+                                                                <div class="column_attr clearfix">
+                                                                    <h5>Posted On:</h5>
+                                                                    <ul class="list_mixed">
+                                                                        <li class="list_star">
+                                                                            {{$internship->created_at->format('F d, Y')}}
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="column mcb-column one column_column">
+                                                                <div class="column_attr clearfix">
+                                                                    <div class="idea_box">
+                                                                        <div class="icon">
+                                                                            <i class="icon-lamp"></i>
+                                                                        </div>
+                                                                        <div class="desc">
+                                                                            Those interested and meet the above conditions, <a class="btn btn-primary " href="">Apply</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    @endforeach
+                                </div>
+                                <!-- One Second (1/2) Column -->
+
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
         </div>
-    </div>
-@endsection
+    </div>@endsection
 @section('footer')
 @endsection
 @section('scripts')

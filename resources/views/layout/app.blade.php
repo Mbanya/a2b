@@ -120,13 +120,13 @@
                                         </li>
 
                                         <li>
-                                            <a disabled><span>News & Events</span></a>
+                                            <a href="{{route('news.index')}}"><span>News & Events</span></a>
                                             <ul class="sub-menu">
                                                 <li>
                                                     <a href="{{route('news.index')}}"><span>News &#038; Events</span></a>
                                                 </li>
                                                 <li>
-                                                    <a href="{{route('internships.index')}}"><span>Funded internships</span></a>
+                                                    <a href=""><span>Funded internships</span></a>
                                                 </li>
                                             </ul>
 

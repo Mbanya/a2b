@@ -273,243 +273,52 @@
                                 </div>
                         </div>
                     </div>
-                <div class="items_group clearfix" style="margin: 0 15%; padding-top: 10%; max-width: 100%;">
+                <div class="items_group clearfix" style=" padding-top: 10%;">
                         <!-- One full width row-->
                     <div class="column one column_fancy_heading">
                         <div class="fancy_heading fancy_heading_icon">
                             <h2 class="title">Are Internships Overrated?</h2>
                         </div>
                     </div>
-                        <!-- One Fourth (1/3) Column -->
-                        <div class="column one-third column_how_it_works">
-                            <div class="how_it_works has_border">
-                                <div class="image"><img src="{{asset('university/images/intern_stats.png')}}" class="scale-with-grid" alt="Step 1"><span class="number">1</span>
-                                </div>
-                                <h4>Job Offers</h4>
-                                <div class="desc">
-                                   58% of those who do internships are more likely to get job offers compared to only<br>
-                                    30% of non-interns
-                                </div>
-                            </div>
-                        </div>
-                        <!-- One third (1/3) Column -->
-                        <div class="column one-third column_how_it_works">
-                            <div class="how_it_works has_border">
-                                <div class="image"><img src="{{asset('university/images/intern_stats2.png')}}" class="scale-with-grid" alt="Step 2"><span class="number">2</span>
-                                </div>
-                                <h4>Career transition</h4>
-                                <div class="desc">
-                                    From college to career takes on average 12 months for interns compared to 36 months <br>for non-interns
-                                </div>
-                            </div>
-                        </div>
-                        <!-- One third (1/3) Column -->
-                        <div class="column one-third column_how_it_works">
-                            <div class="how_it_works has_border">
-                                <div class="image"><img src="{{asset('university/images/intern_stats3.png')}}" class="scale-with-grid" alt="Step 3"><span class="number">3</span>
-                                </div>
-                                <h4>Work Experience</h4>
-                                <div class="desc">
-                                    96% of employers consider relevant work experience more important than <br>
-                                    strong academic performance
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="section" style="padding-top:0px; padding-bottom:0px; background-color:#f9f9f9">
+                    <div class="section dark " style="padding-top:20px;  background-color:rgba(255,255,255,0.1) !important;  ">
                         <div class="section_wrapper clearfix">
                             <div class="items_group clearfix">
                                 <!-- Page Title-->
                                 <!-- One full width row-->
                                 <div class="column one column_fancy_heading">
                                     <div class="fancy_heading fancy_heading_icon">
-                                        <h2 class="title" style="padding-top: 25px;">Top stories</h2>
-                                    </div>
-                                </div>
-                                <!-- One full width row-->
-                                <div class="column one column_blog">
-                                    <div class="blog_wrapper isotope_wrapper clearfix">
-                                        <!-- Masonry blog posts -->
-                                        <div class="posts_group lm_wrapper masonry isotope">
-                                            <div class="post-2283 post  format-standard has-post-thumbnail  category-stories tag-design post-item isotope-item clearfix">
-                                                <div class="date_label">
-                                                    <?php echo date("Y/m/d")?>
-                                                </div>
-                                                <div class="image_frame post-photo-wrapper scale-with-grid">
-                                                    <div class="image_wrapper">
-                                                        <a href="">
-                                                            <div class="mask"></div><img width="576" height="450" src="university/images/olu-eletu-211914.jpg" class="scale-with-grid wp-post-image" alt="a2b blog" />
-                                                        </a>
-                                                        <div class="image_links double">
-                                                            <a href="university/images/olu-eletu-211914.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="" class="link"><i class="icon-link"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="post-desc-wrapper">
-                                                    <div class="post-desc">
-                                                        <div class="post-meta clearfix">
-                                                            <div class="author-date">
-                                                                <span class="vcard author post-author"><span class="label">Published by </span><i class="icon-user"></i> <span class="fn"><a href="#">admin</a></span></span><span class="date"><span class="label"> on </span><i class="icon-clock"></i> <span class="post-date updated"><?php echo  date("Y/m/d")?></span></span>
-                                                            </div>
-                                                            <div class="category">
-                                                                <span class="cat-btn">Categories <i class="icon-down-dir"></i></span>
-                                                                <div class="cat-wrapper">
-                                                                    <ul class="post-categories">
-                                                                        <li>
-                                                                            <a href="" rel="category tag">News</a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="" rel="category tag">Stories</a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="post-title">
-                                                            <h2 class="entry-title"><a href="">What is an Internship?</a></h2>
-                                                        </div>
-                                                        <div class="post-excerpt">
-                                                            An internship is an official program offered by an employer to potential employees.
-                                                            Interns work either part time or full time at a company for a certain period of time.
-                                                            Internships are most popular with undergraduates or graduate students who work between
-                                                            one to four months and have a goal to gain practical work or research related experience.
-
-                                                        </div>
-                                                        <div class="post-footer">
-                                                            <div class="button-love">
-                                                                <span class="love-text">Do you like it?</span><a href="#" class="mfn-love " data-id="2283"><span class="icons-wrapper"><i class="icon-heart-empty-fa"></i><i class="icon-heart-fa"></i></span><span class="label">5</span></a>
-                                                            </div>
-                                                            <div class="post-links">
-                                                                <i class="icon-doc-text"></i><a href="" class="post-more">Read more</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                        <div class="row">
+                                            <div class="column one-third">
+                                                <img class="scale-with-grid" style="max-width: 100%;" src="{{asset('university/images/intern_stats.png')}}">
+                                                <h4 style="color: black">Job Offers</h4>
+                                                <p style="color: black">58% of those who do internships are more likely to get job offers compared to only
+                                                    30% of non-interns
+                                                </p>
                                             </div>
-                                            <div class="post-2285 post  format-standard has-post-thumbnail  category-stories  post-item isotope-item clearfix">
-                                                <div class="date_label">
-                                                    <?php echo date("Y/m/d")?>
-                                                </div>
-                                                <div class="image_frame post-photo-wrapper scale-with-grid">
-                                                    <div class="image_wrapper">
-                                                        <a href="">
-                                                            <div class="mask"></div><img width="576" height="450" src="university/images/olu-eletu-211916.jpg" class="scale-with-grid wp-post-image" alt="a2b blog" />
-                                                        </a>
-                                                        <div class="image_links double">
-                                                            <a href="university/images/olu-eletu-211916.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="" class="link"><i class="icon-link"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="post-desc-wrapper">
-                                                    <div class="post-desc">
-                                                        <div class="post-meta clearfix">
-                                                            <div class="author-date">
-                                                                <span class="vcard author post-author"><span class="label">Published by </span><i class="icon-user"></i> <span class="fn"><a href="#">admin</a></span></span><span class="date"><span class="label"> on </span><i class="icon-clock"></i> <span class="post-date updated"><?php echo  date("Y/m/d")?></span></span>
-                                                            </div>
-                                                            <div class="category">
-                                                                <span class="cat-btn">Categories <i class="icon-down-dir"></i></span>
-                                                                <div class="cat-wrapper">
-                                                                    <ul class="post-categories">
-                                                                        <li>
-                                                                            <a href="" rel="category tag">News</a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="" rel="category tag">Stories</a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="post-title">
-                                                            <h2 class="entry-title"><a href="">Why You Should do an Internship?</a></h2>
-                                                        </div>
-                                                        <div class="post-excerpt">
-                                                            The importance of an internship experience cannot be overstated.  Today, employers
-                                                            favor prospective employees who have done not only one internship but multiple internships.
-                                                            A college education will serve to propel a graduate into a profession by conferring a degree,
-                                                            which demonstrates an academic proficiency in various theoretical and practical examples of ways
-                                                            that a job might be performed.
-                                                        </div>
-                                                        <div class="post-footer">
-                                                            <div class="button-love">
-                                                                <span class="love-text">Do you like it?</span><a href="#" class="mfn-love " data-id="2285"><span class="icons-wrapper"><i class="icon-heart-empty-fa"></i><i class="icon-heart-fa"></i></span><span class="label">6</span></a>
-                                                            </div>
-                                                            <div class="post-links">
-                                                                <i class="icon-doc-text"></i><a href="" class="post-more">Read more</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                            <div class="column one-third">
+                                                <img class="scale-with-grid" style="max-width: 100%;" src="{{asset('university/images/intern_stats2.png')}}">
+                                                <h4 style="color: black" >Career transition</h4>
+                                                <p style="color: black">From college to career takes on average 12 months for interns compared to 36 months
+                                                    for non-interns.</p>
                                             </div>
-                                            <div class="post-2287 post  format-standard has-post-thumbnail  category-stories post-item isotope-item clearfix">
-                                                <div class="date_label">
-                                                   <?php echo date("Y/m/d")?>
-                                                </div>
-                                                <div class="image_frame post-photo-wrapper scale-with-grid">
-                                                    <div class="image_wrapper">
-                                                        <a href="">
-                                                            <div class="mask"></div><img width="576" height="450" src="university/images/tamarcus-brown-131428.jpg" class="scale-with-grid wp-post-image" alt="a2b_blog" />
-                                                        </a>
-                                                        <div class="image_links double">
-                                                            <a href="university/images/tamarcus-brown-131428.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="" class="link"><i class="icon-link"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="post-desc-wrapper">
-                                                    <div class="post-desc">
-                                                        <div class="post-meta clearfix">
-                                                            <div class="author-date">
-                                                                <span class="vcard author post-author"><span class="label">Published by </span><i class="icon-user"></i> <span class="fn"><a href="#">admin</a></span></span><span class="date"><span class="label"> on </span><i class="icon-clock"></i> <span class="post-date updated"> <?php echo  date("Y/m/d")?></span></span>
-                                                            </div>
-                                                            <div class="category">
-                                                                <span class="cat-btn">Categories <i class="icon-down-dir"></i></span>
-                                                                <div class="cat-wrapper">
-                                                                    <ul class="post-categories">
-                                                                        <li>
-                                                                            <a href="" rel="category tag">Stories</a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="post-title">
-                                                            <h2 class="entry-title"><a href="">Should I Intern as a College Freshman?</a></h2>
-                                                        </div>
-                                                        <div class="post-excerpt">
-                                                            You’ve just moved into a dorm, and you were elected a student representative.
-                                                            You’ve just taken your first test, and you’ve gotten an “A.” You’ve just gone to your
-                                                            first school football game, and your team won. You’re on a roll, so it’s time to check
-                                                            out the internship situation at your school.  Although you might not be ready in your
-                                                            first semester to take on an internship, it’s not too early to find out more about your
-                                                            future options.
-                                                        </div>
-                                                        <div class="post-footer">
-                                                            <div class="button-love">
-                                                                <span class="love-text">Do you like it?</span><a href="#" class="mfn-love " data-id="2287"><span class="icons-wrapper"><i class="icon-heart-empty-fa"></i><i class="icon-heart-fa"></i></span><span class="label">2</span></a>
-                                                            </div>
-                                                            <div class="post-links">
-                                                                <i class="icon-doc-text"></i><a href="" class="post-more">Read more</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                            <div class="column one-third">
+                                                <img class="scale-with-grid" style="max-width: 100%;" src="{{asset('university/images/intern_stats3.png')}}">
+                                                <h4 style="color: black">Work Experience</h4>
+                                                <p style="color: black">
+                                                    96% of employers consider relevant work experience more important than
+                                                    strong academic performance
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Page devider -->
-                                <!-- One full width row-->
+                            </div>
+                        </div>
+                    </div>
 
-                        </div>
-                    </div>
-                    <div class="section the_content">
-                        <div class="section_wrapper">
-                            <div class="the_content_wrapper"></div>
-                        </div>
-                    </div>
                 </div>
-            </div>
+           </div>
         </div>
     </div>
 
